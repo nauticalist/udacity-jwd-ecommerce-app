@@ -1,0 +1,1021 @@
+[eCommerce] -2020-09-19 22:11:22.974 -DEBUG 9675 --- [background-preinit] .internal.xml.config.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+-[eCommerce] -2020-09-19 22:11:22.978 -DEBUG 9675 --- [background-preinit] internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+-[eCommerce] -2020-09-19 22:11:22.979 -DEBUG 9675 --- [background-preinit] internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+-[eCommerce] -2020-09-19 22:11:22.979 -DEBUG 9675 --- [background-preinit] .internal.xml.config.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+-[eCommerce] -2020-09-19 22:11:22.985 -DEBUG 9675 --- [background-preinit] nal.engine.resolver.TraversableResolvers : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+-[eCommerce] -2020-09-19 22:11:22.986 -DEBUG 9675 --- [background-preinit] nal.engine.resolver.TraversableResolvers : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+-[eCommerce] -2020-09-19 22:11:23.007 -DEBUG 9675 --- [background-preinit] lation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+-[eCommerce] -2020-09-19 22:11:23.006 - INFO 9675 --- [restartedMain] com.udacity.project4.Project4Application : Starting Project4Application on Solaris with PID 9675 (/Users/nauticalist/Projects/Learn/Udacity - Java Web Developer/section_04/project4/target/classes started by nauticalist in /Users/nauticalist/Projects/Learn/Udacity - Java Web Developer/section_04/project4)
+-[eCommerce] -2020-09-19 22:11:23.008 -DEBUG 9675 --- [restartedMain] com.udacity.project4.Project4Application : Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+-[eCommerce] -2020-09-19 22:11:23.009 - INFO 9675 --- [restartedMain] com.udacity.project4.Project4Application : No active profile set, falling back to default profiles: default
+-[eCommerce] -2020-09-19 22:11:23.040 - INFO 9675 --- [restartedMain] nv.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+-[eCommerce] -2020-09-19 22:11:23.040 - INFO 9675 --- [restartedMain] nv.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+-[eCommerce] -2020-09-19 22:11:23.087 -DEBUG 9675 --- [background-preinit] gine.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+-[eCommerce] -2020-09-19 22:11:23.092 -DEBUG 9675 --- [background-preinit] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+-[eCommerce] -2020-09-19 22:11:23.092 -DEBUG 9675 --- [background-preinit] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+-[eCommerce] -2020-09-19 22:11:23.092 -DEBUG 9675 --- [background-preinit] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+-[eCommerce] -2020-09-19 22:11:23.092 -DEBUG 9675 --- [background-preinit] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+-[eCommerce] -2020-09-19 22:11:23.092 -DEBUG 9675 --- [background-preinit] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+-[eCommerce] -2020-09-19 22:11:23.727 - INFO 9675 --- [restartedMain] y.config.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+-[eCommerce] -2020-09-19 22:11:23.791 - INFO 9675 --- [restartedMain] y.config.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57ms. Found 4 JPA repository interfaces.
+-[eCommerce] -2020-09-19 22:11:24.337 - INFO 9675 --- [restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port(s): 8080 (http)
+-[eCommerce] -2020-09-19 22:11:24.346 - INFO 9675 --- [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+-[eCommerce] -2020-09-19 22:11:24.347 - INFO 9675 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+-[eCommerce] -2020-09-19 22:11:24.418 - INFO 9675 --- [restartedMain] e.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+-[eCommerce] -2020-09-19 22:11:24.418 - INFO 9675 --- [restartedMain] ntext.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1378 ms
+-[eCommerce] -2020-09-19 22:11:24.526 - INFO 9675 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+-[eCommerce] -2020-09-19 22:11:24.655 - INFO 9675 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+-[eCommerce] -2020-09-19 22:11:24.661 - INFO 9675 --- [restartedMain] oconfigure.h2.H2ConsoleAutoConfiguration : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bootapp'
+-[eCommerce] -2020-09-19 22:11:24.781 - INFO 9675 --- [restartedMain] duling.concurrent.ThreadPoolTaskExecutor : Initializing ExecutorService 'applicationTaskExecutor'
+-[eCommerce] -2020-09-19 22:11:24.821 -DEBUG 9675 --- [task-1] rg.hibernate.jpa.internal.util.LogHelper : PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2dd71bdd
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: HikariDataSource (HikariPool-1)
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/nauticalist/Projects/Learn/Udacity%20-%20Java%20Web%20Developer/section_04/project4/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.udacity.project4.domain.model.Cart
+		com.udacity.project4.domain.model.Item
+		com.udacity.project4.domain.model.User
+		com.udacity.project4.domain.model.UserOrder]
+	Mapping files names []
+	Properties []
+-[eCommerce] -2020-09-19 22:11:24.829 -DEBUG 9675 --- [task-1] ntegrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+-[eCommerce] -2020-09-19 22:11:24.831 -DEBUG 9675 --- [task-1] ntegrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+-[eCommerce] -2020-09-19 22:11:24.833 -DEBUG 9675 --- [task-1] ntegrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+-[eCommerce] -2020-09-19 22:11:24.861 -DEBUG 9675 --- [restartedMain] ect4.infrastructure.aspect.LoggingAspect : ===> Begin: bCryptPasswordEncoder @ 2020-09-19T22:11:24.860375
+-[eCommerce] -2020-09-19 22:11:24.866 - INFO 9675 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+-[eCommerce] -2020-09-19 22:11:24.868 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+-[eCommerce] -2020-09-19 22:11:24.872 -DEBUG 9675 --- [restartedMain] ect4.infrastructure.aspect.LoggingAspect : ===> End: bCryptPasswordEncoder completed @ 2020-09-19T22:11:24.872139 within 0 secs
+-[eCommerce] -2020-09-19 22:11:24.918 - WARN 9675 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+-[eCommerce] -2020-09-19 22:11:24.954 -DEBUG 9675 --- [task-1] org.hibernate.service.spi.ServiceBinding : Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+-[eCommerce] -2020-09-19 22:11:24.967 -DEBUG 9675 --- [task-1] te.cache.internal.RegionFactoryInitiator : Cannot default RegionFactory based on registered strategies as `[]` RegionFactory strategies were registered
+-[eCommerce] -2020-09-19 22:11:24.968 -DEBUG 9675 --- [task-1] te.cache.internal.RegionFactoryInitiator : Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+-[eCommerce] -2020-09-19 22:11:24.978 - INFO 9675 --- [task-1] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+-[eCommerce] -2020-09-19 22:11:25.000 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@76978792
+-[eCommerce] -2020-09-19 22:11:25.000 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration boolean -> org.hibernate.type.BooleanType@76978792
+-[eCommerce] -2020-09-19 22:11:25.000 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@76978792
+-[eCommerce] -2020-09-19 22:11:25.001 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@654ae5c3
+-[eCommerce] -2020-09-19 22:11:25.001 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration true_false -> org.hibernate.type.TrueFalseType@76813c8d
+-[eCommerce] -2020-09-19 22:11:25.002 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration yes_no -> org.hibernate.type.YesNoType@2f6cc8e6
+-[eCommerce] -2020-09-19 22:11:25.003 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@24c0977b
+-[eCommerce] -2020-09-19 22:11:25.003 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte -> org.hibernate.type.ByteType@24c0977b
+-[eCommerce] -2020-09-19 22:11:25.003 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@24c0977b
+-[eCommerce] -2020-09-19 22:11:25.004 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration character -> org.hibernate.type.CharacterType@d31da0e
+-[eCommerce] -2020-09-19 22:11:25.004 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration char -> org.hibernate.type.CharacterType@d31da0e
+-[eCommerce] -2020-09-19 22:11:25.004 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@d31da0e
+-[eCommerce] -2020-09-19 22:11:25.005 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@2ce50b41
+-[eCommerce] -2020-09-19 22:11:25.005 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration short -> org.hibernate.type.ShortType@2ce50b41
+-[eCommerce] -2020-09-19 22:11:25.006 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2ce50b41
+-[eCommerce] -2020-09-19 22:11:25.006 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration integer -> org.hibernate.type.IntegerType@a54771
+-[eCommerce] -2020-09-19 22:11:25.006 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration int -> org.hibernate.type.IntegerType@a54771
+-[eCommerce] -2020-09-19 22:11:25.007 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@a54771
+-[eCommerce] -2020-09-19 22:11:25.007 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@51fe972
+-[eCommerce] -2020-09-19 22:11:25.007 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration long -> org.hibernate.type.LongType@51fe972
+-[eCommerce] -2020-09-19 22:11:25.008 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Long -> org.hibernate.type.LongType@51fe972
+-[eCommerce] -2020-09-19 22:11:25.008 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@6640d2c7
+-[eCommerce] -2020-09-19 22:11:25.009 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration float -> org.hibernate.type.FloatType@6640d2c7
+-[eCommerce] -2020-09-19 22:11:25.009 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@6640d2c7
+-[eCommerce] -2020-09-19 22:11:25.010 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@50605424
+-[eCommerce] -2020-09-19 22:11:25.011 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration double -> org.hibernate.type.DoubleType@50605424
+-[eCommerce] -2020-09-19 22:11:25.011 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@50605424
+-[eCommerce] -2020-09-19 22:11:25.011 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@16c6c71d
+-[eCommerce] -2020-09-19 22:11:25.011 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@16c6c71d
+-[eCommerce] -2020-09-19 22:11:25.012 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@33559721
+-[eCommerce] -2020-09-19 22:11:25.012 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@33559721
+-[eCommerce] -2020-09-19 22:11:25.013 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration string -> org.hibernate.type.StringType@407f6898
+-[eCommerce] -2020-09-19 22:11:25.013 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.String -> org.hibernate.type.StringType@407f6898
+-[eCommerce] -2020-09-19 22:11:25.013 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@7dd8e0fd
+-[eCommerce] -2020-09-19 22:11:25.014 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@43ec798b
+-[eCommerce] -2020-09-19 22:11:25.014 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration url -> org.hibernate.type.UrlType@7f1e3763
+-[eCommerce] -2020-09-19 22:11:25.015 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.net.URL -> org.hibernate.type.UrlType@7f1e3763
+-[eCommerce] -2020-09-19 22:11:25.015 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Duration -> org.hibernate.type.DurationType@f5094c2
+-[eCommerce] -2020-09-19 22:11:25.015 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Duration -> org.hibernate.type.DurationType@f5094c2
+-[eCommerce] -2020-09-19 22:11:25.016 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Instant -> org.hibernate.type.InstantType@463ae81b
+-[eCommerce] -2020-09-19 22:11:25.016 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.Instant -> org.hibernate.type.InstantType@463ae81b
+-[eCommerce] -2020-09-19 22:11:25.017 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDateTime -> org.hibernate.type.LocalDateTimeType@3daf0833
+-[eCommerce] -2020-09-19 22:11:25.017 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDateTime -> org.hibernate.type.LocalDateTimeType@3daf0833
+-[eCommerce] -2020-09-19 22:11:25.018 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalDate -> org.hibernate.type.LocalDateType@216c58c8
+-[eCommerce] -2020-09-19 22:11:25.018 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalDate -> org.hibernate.type.LocalDateType@216c58c8
+-[eCommerce] -2020-09-19 22:11:25.018 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration LocalTime -> org.hibernate.type.LocalTimeType@395a5645
+-[eCommerce] -2020-09-19 22:11:25.019 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.LocalTime -> org.hibernate.type.LocalTimeType@395a5645
+-[eCommerce] -2020-09-19 22:11:25.019 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5c3ae5f9
+-[eCommerce] -2020-09-19 22:11:25.020 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetDateTime -> org.hibernate.type.OffsetDateTimeType@5c3ae5f9
+-[eCommerce] -2020-09-19 22:11:25.020 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration OffsetTime -> org.hibernate.type.OffsetTimeType@63491bed
+-[eCommerce] -2020-09-19 22:11:25.020 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.OffsetTime -> org.hibernate.type.OffsetTimeType@63491bed
+-[eCommerce] -2020-09-19 22:11:25.021 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@512ba3e9
+-[eCommerce] -2020-09-19 22:11:25.021 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.time.ZonedDateTime -> org.hibernate.type.ZonedDateTimeType@512ba3e9
+-[eCommerce] -2020-09-19 22:11:25.022 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration date -> org.hibernate.type.DateType@6aae67df
+-[eCommerce] -2020-09-19 22:11:25.022 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Date -> org.hibernate.type.DateType@6aae67df
+-[eCommerce] -2020-09-19 22:11:25.023 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration time -> org.hibernate.type.TimeType@b9f615
+-[eCommerce] -2020-09-19 22:11:25.023 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@b9f615
+-[eCommerce] -2020-09-19 22:11:25.024 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration timestamp -> org.hibernate.type.TimestampType@22cbb4f0
+-[eCommerce] -2020-09-19 22:11:25.024 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@22cbb4f0
+-[eCommerce] -2020-09-19 22:11:25.024 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@22cbb4f0
+-[eCommerce] -2020-09-19 22:11:25.025 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@222fc870
+-[eCommerce] -2020-09-19 22:11:25.026 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar -> org.hibernate.type.CalendarType@50a41bfa
+-[eCommerce] -2020-09-19 22:11:25.026 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@50a41bfa
+-[eCommerce] -2020-09-19 22:11:25.026 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@50a41bfa
+-[eCommerce] -2020-09-19 22:11:25.027 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@601eea32
+-[eCommerce] -2020-09-19 22:11:25.027 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration calendar_time -> org.hibernate.type.CalendarTimeType@37adda98
+-[eCommerce] -2020-09-19 22:11:25.028 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration locale -> org.hibernate.type.LocaleType@288ac94e
+-[eCommerce] -2020-09-19 22:11:25.028 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@288ac94e
+-[eCommerce] -2020-09-19 22:11:25.029 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration currency -> org.hibernate.type.CurrencyType@1803f3bf
+-[eCommerce] -2020-09-19 22:11:25.029 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1803f3bf
+-[eCommerce] -2020-09-19 22:11:25.030 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration timezone -> org.hibernate.type.TimeZoneType@14a337c2
+-[eCommerce] -2020-09-19 22:11:25.030 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@14a337c2
+-[eCommerce] -2020-09-19 22:11:25.031 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration class -> org.hibernate.type.ClassType@6b614482
+-[eCommerce] -2020-09-19 22:11:25.031 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@6b614482
+-[eCommerce] -2020-09-19 22:11:25.032 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@691b4ec8
+-[eCommerce] -2020-09-19 22:11:25.032 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@691b4ec8
+-[eCommerce] -2020-09-19 22:11:25.032 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4e76fb73
+-[eCommerce] -2020-09-19 22:11:25.033 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration binary -> org.hibernate.type.BinaryType@306bbfdb
+-[eCommerce] -2020-09-19 22:11:25.034 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration byte[] -> org.hibernate.type.BinaryType@306bbfdb
+-[eCommerce] -2020-09-19 22:11:25.034 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [B -> org.hibernate.type.BinaryType@306bbfdb
+-[eCommerce] -2020-09-19 22:11:25.034 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@25a9e784
+-[eCommerce] -2020-09-19 22:11:25.035 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@25a9e784
+-[eCommerce] -2020-09-19 22:11:25.035 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@25a9e784
+-[eCommerce] -2020-09-19 22:11:25.036 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration row_version -> org.hibernate.type.RowVersionType@16f96860
+-[eCommerce] -2020-09-19 22:11:25.036 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration image -> org.hibernate.type.ImageType@600d9c9c
+-[eCommerce] -2020-09-19 22:11:25.037 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration characters -> org.hibernate.type.CharArrayType@7750282c
+-[eCommerce] -2020-09-19 22:11:25.037 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration char[] -> org.hibernate.type.CharArrayType@7750282c
+-[eCommerce] -2020-09-19 22:11:25.037 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [C -> org.hibernate.type.CharArrayType@7750282c
+-[eCommerce] -2020-09-19 22:11:25.038 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@5962376f
+-[eCommerce] -2020-09-19 22:11:25.038 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@5962376f
+-[eCommerce] -2020-09-19 22:11:25.038 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@5962376f
+-[eCommerce] -2020-09-19 22:11:25.038 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration text -> org.hibernate.type.TextType@2d7a256c
+-[eCommerce] -2020-09-19 22:11:25.038 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration ntext -> org.hibernate.type.NTextType@225a0199
+-[eCommerce] -2020-09-19 22:11:25.039 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration blob -> org.hibernate.type.BlobType@452f66ba
+-[eCommerce] -2020-09-19 22:11:25.039 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@452f66ba
+-[eCommerce] -2020-09-19 22:11:25.040 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4fc04a8b
+-[eCommerce] -2020-09-19 22:11:25.041 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration clob -> org.hibernate.type.ClobType@12d26654
+-[eCommerce] -2020-09-19 22:11:25.041 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@12d26654
+-[eCommerce] -2020-09-19 22:11:25.042 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration nclob -> org.hibernate.type.NClobType@1b6e611
+-[eCommerce] -2020-09-19 22:11:25.042 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@1b6e611
+-[eCommerce] -2020-09-19 22:11:25.042 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@3d0cfdb1
+-[eCommerce] -2020-09-19 22:11:25.042 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@1043bfc1
+-[eCommerce] -2020-09-19 22:11:25.043 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration serializable -> org.hibernate.type.SerializableType@56320981
+-[eCommerce] -2020-09-19 22:11:25.045 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration object -> org.hibernate.type.ObjectType@3275f8d1
+-[eCommerce] -2020-09-19 22:11:25.045 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@3275f8d1
+-[eCommerce] -2020-09-19 22:11:25.046 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@2f9cea70
+-[eCommerce] -2020-09-19 22:11:25.046 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@47ccdf07
+-[eCommerce] -2020-09-19 22:11:25.046 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@30c4980
+-[eCommerce] -2020-09-19 22:11:25.046 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@20618071
+-[eCommerce] -2020-09-19 22:11:25.046 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@68e62167
+-[eCommerce] -2020-09-19 22:11:25.046 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@49f3ff9b
+-[eCommerce] -2020-09-19 22:11:25.046 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@2852ff6c
+-[eCommerce] -2020-09-19 22:11:25.046 -DEBUG 9675 --- [task-1] org.hibernate.type.BasicTypeRegistry     : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@41c801f
+-[eCommerce] -2020-09-19 22:11:25.052 -DEBUG 9675 --- [task-1] rnate.boot.internal.BootstrapContextImpl : Injecting JPA temp ClassLoader [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5cfaf411] into BootstrapContext; was [null]
+-[eCommerce] -2020-09-19 22:11:25.052 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : ClassLoaderAccessImpl#injectTempClassLoader(org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5cfaf411) [was null]
+-[eCommerce] -2020-09-19 22:11:25.053 -DEBUG 9675 --- [task-1] rnate.boot.internal.BootstrapContextImpl : Injecting ScanEnvironment [org.hibernate.jpa.boot.internal.StandardJpaScanEnvironmentImpl@256e4da3] into BootstrapContext; was [null]
+-[eCommerce] -2020-09-19 22:11:25.053 -DEBUG 9675 --- [task-1] rnate.boot.internal.BootstrapContextImpl : Injecting ScanOptions [org.hibernate.boot.archive.scan.internal.StandardScanOptions@5b1177e9] into BootstrapContext; was [org.hibernate.boot.archive.scan.internal.StandardScanOptions@13439785]
+-[eCommerce] -2020-09-19 22:11:25.059 - INFO 9675 --- [restartedMain] .security.web.DefaultSecurityFilterChain : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@12d96e61, org.springframework.security.web.context.SecurityContextPersistenceFilter@6765f2fc, org.springframework.security.web.header.HeaderWriterFilter@395ed76c, org.springframework.web.filter.CorsFilter@750f6ac5, org.springframework.security.web.authentication.logout.LogoutFilter@1f74c711, com.udacity.project4.infrastructure.security.JWTAuthenticationFilter@2ae2514, com.udacity.project4.infrastructure.security.JWTAuthorizationFilter@63fd2bf5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@33f0c74b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@569d7ed, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a0eeb8d, org.springframework.security.web.session.SessionManagementFilter@207daece, org.springframework.security.web.access.ExceptionTranslationFilter@7a9fec06, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31297b6e]
+-[eCommerce] -2020-09-19 22:11:25.062 -DEBUG 9675 --- [task-1] rnate.boot.internal.BootstrapContextImpl : Injecting JPA temp ClassLoader [null] into BootstrapContext; was [org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5cfaf411]
+-[eCommerce] -2020-09-19 22:11:25.062 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : ClassLoaderAccessImpl#injectTempClassLoader(null) [was org.springframework.instrument.classloading.SimpleThrowawayClassLoader@5cfaf411]
+-[eCommerce] -2020-09-19 22:11:25.065 -DEBUG 9675 --- [restartedMain] lation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+-[eCommerce] -2020-09-19 22:11:25.067 -DEBUG 9675 --- [restartedMain] nternal.engine.AbstractConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+-[eCommerce] -2020-09-19 22:11:25.067 -DEBUG 9675 --- [restartedMain] nternal.engine.AbstractConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+-[eCommerce] -2020-09-19 22:11:25.068 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+-[eCommerce] -2020-09-19 22:11:25.068 -DEBUG 9675 --- [restartedMain] nternal.engine.AbstractConfigurationImpl : Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+-[eCommerce] -2020-09-19 22:11:25.068 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+-[eCommerce] -2020-09-19 22:11:25.069 -DEBUG 9675 --- [restartedMain] .internal.xml.config.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+-[eCommerce] -2020-09-19 22:11:25.069 -DEBUG 9675 --- [restartedMain] internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+-[eCommerce] -2020-09-19 22:11:25.069 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+-[eCommerce] -2020-09-19 22:11:25.069 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+-[eCommerce] -2020-09-19 22:11:25.069 -DEBUG 9675 --- [restartedMain] internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+-[eCommerce] -2020-09-19 22:11:25.069 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+-[eCommerce] -2020-09-19 22:11:25.071 -DEBUG 9675 --- [restartedMain] internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+-[eCommerce] -2020-09-19 22:11:25.072 -DEBUG 9675 --- [restartedMain] .internal.xml.config.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+-[eCommerce] -2020-09-19 22:11:25.072 -DEBUG 9675 --- [restartedMain] nal.engine.resolver.TraversableResolvers : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+-[eCommerce] -2020-09-19 22:11:25.072 -DEBUG 9675 --- [restartedMain] nal.engine.resolver.TraversableResolvers : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+-[eCommerce] -2020-09-19 22:11:25.072 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+-[eCommerce] -2020-09-19 22:11:25.072 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+-[eCommerce] -2020-09-19 22:11:25.073 -DEBUG 9675 --- [restartedMain] gine.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+-[eCommerce] -2020-09-19 22:11:25.073 -DEBUG 9675 --- [restartedMain] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+-[eCommerce] -2020-09-19 22:11:25.074 -DEBUG 9675 --- [restartedMain] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+-[eCommerce] -2020-09-19 22:11:25.074 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+-[eCommerce] -2020-09-19 22:11:25.074 -DEBUG 9675 --- [restartedMain] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+-[eCommerce] -2020-09-19 22:11:25.074 -DEBUG 9675 --- [restartedMain] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+-[eCommerce] -2020-09-19 22:11:25.074 -DEBUG 9675 --- [restartedMain] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+-[eCommerce] -2020-09-19 22:11:25.074 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+-[eCommerce] -2020-09-19 22:11:25.075 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+-[eCommerce] -2020-09-19 22:11:25.075 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+-[eCommerce] -2020-09-19 22:11:25.076 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+-[eCommerce] -2020-09-19 22:11:25.076 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+-[eCommerce] -2020-09-19 22:11:25.077 -DEBUG 9675 --- [task-1] ternal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+-[eCommerce] -2020-09-19 22:11:25.080 -DEBUG 9675 --- [task-1] bc.env.internal.JdbcEnvironmentInitiator : Database ->
+       name : H2
+    version : 1.4.200 (2019-10-14)
+      major : 1
+      minor : 4
+-[eCommerce] -2020-09-19 22:11:25.081 -DEBUG 9675 --- [task-1] bc.env.internal.JdbcEnvironmentInitiator : Driver ->
+       name : H2 JDBC Driver
+    version : 1.4.200 (2019-10-14)
+      major : 1
+      minor : 4
+-[eCommerce] -2020-09-19 22:11:25.081 -DEBUG 9675 --- [task-1] bc.env.internal.JdbcEnvironmentInitiator : JDBC version : 4.1
+-[eCommerce] -2020-09-19 22:11:25.089 - INFO 9675 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+-[eCommerce] -2020-09-19 22:11:25.123 -DEBUG 9675 --- [task-1] ine.jdbc.env.spi.IdentifierHelperBuilder : JDBC driver metadata reported database stores quoted identifiers in neither upper, lower nor mixed case
+-[eCommerce] -2020-09-19 22:11:25.145 -DEBUG 9675 --- [task-1] ibernate.boot.model.relational.Namespace : Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+-[eCommerce] -2020-09-19 22:11:25.147 -DEBUG 9675 --- [task-1] bernate.type.spi.TypeConfiguration$Scope : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@9581b80] to MetadataBuildingContext [org.hibernate.boot.internal.MetadataBuildingContextRootImpl@18b073c9]
+-[eCommerce] -2020-09-19 22:11:25.163 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AnnotationBinder       : Binding entity from annotated class: com.udacity.project4.domain.model.Cart
+-[eCommerce] -2020-09-19 22:11:25.182 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+-[eCommerce] -2020-09-19 22:11:25.185 -DEBUG 9675 --- [task-1] g.hibernate.cfg.annotations.EntityBinder : Import with entity name Cart
+-[eCommerce] -2020-09-19 22:11:25.189 -DEBUG 9675 --- [task-1] g.hibernate.cfg.annotations.EntityBinder : Bind entity com.udacity.project4.domain.model.Cart on table cart
+-[eCommerce] -2020-09-19 22:11:25.208 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cart), mappingColumn=id, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.210 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property id with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.211 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.Cart:id]
+-[eCommerce] -2020-09-19 22:11:25.213 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for id
+-[eCommerce] -2020-09-19 22:11:25.215 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property id
+-[eCommerce] -2020-09-19 22:11:25.219 -DEBUG 9675 --- [task-1] org.hibernate.cfg.BinderHelper           : #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+-[eCommerce] -2020-09-19 22:11:25.219 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cart), mappingColumn=items, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.221 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cart), mappingColumn=null, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.224 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cart), mappingColumn=element, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.225 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cart), mappingColumn=items_key, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.226 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3JoinColumn{logicalColumnName='items_KEY', referencedColumn='null', mappedBy='null'}
+-[eCommerce] -2020-09-19 22:11:25.227 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+-[eCommerce] -2020-09-19 22:11:25.227 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+-[eCommerce] -2020-09-19 22:11:25.227 -DEBUG 9675 --- [task-1] bernate.cfg.annotations.CollectionBinder : Collection role: com.udacity.project4.domain.model.Cart.items
+-[eCommerce] -2020-09-19 22:11:25.229 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property items
+-[eCommerce] -2020-09-19 22:11:25.229 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cart), mappingColumn=total, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.230 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property total with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.230 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.Cart:total]
+-[eCommerce] -2020-09-19 22:11:25.230 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for total
+-[eCommerce] -2020-09-19 22:11:25.230 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property total
+-[eCommerce] -2020-09-19 22:11:25.230 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy='cart'}
+-[eCommerce] -2020-09-19 22:11:25.230 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(cart), mappingColumn=user, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.232 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AnnotationBinder       : Binding entity from annotated class: com.udacity.project4.domain.model.Item
+-[eCommerce] -2020-09-19 22:11:25.232 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+-[eCommerce] -2020-09-19 22:11:25.232 -DEBUG 9675 --- [task-1] g.hibernate.cfg.annotations.EntityBinder : Import with entity name Item
+-[eCommerce] -2020-09-19 22:11:25.232 -DEBUG 9675 --- [task-1] g.hibernate.cfg.annotations.EntityBinder : Bind entity com.udacity.project4.domain.model.Item on table item
+-[eCommerce] -2020-09-19 22:11:25.233 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=id, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.233 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property id with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.233 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.Item:id]
+-[eCommerce] -2020-09-19 22:11:25.233 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for id
+-[eCommerce] -2020-09-19 22:11:25.233 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property id
+-[eCommerce] -2020-09-19 22:11:25.233 -DEBUG 9675 --- [task-1] org.hibernate.cfg.BinderHelper           : #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+-[eCommerce] -2020-09-19 22:11:25.233 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=description, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.234 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property description with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.234 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.Item:description]
+-[eCommerce] -2020-09-19 22:11:25.234 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for description
+-[eCommerce] -2020-09-19 22:11:25.234 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property description
+-[eCommerce] -2020-09-19 22:11:25.234 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=name, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.234 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property name with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.234 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.Item:name]
+-[eCommerce] -2020-09-19 22:11:25.234 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for name
+-[eCommerce] -2020-09-19 22:11:25.234 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property name
+-[eCommerce] -2020-09-19 22:11:25.235 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=price, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.237 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property price with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.237 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.Item:price]
+-[eCommerce] -2020-09-19 22:11:25.237 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for price
+-[eCommerce] -2020-09-19 22:11:25.237 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property price
+-[eCommerce] -2020-09-19 22:11:25.238 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AnnotationBinder       : Binding entity from annotated class: com.udacity.project4.domain.model.User
+-[eCommerce] -2020-09-19 22:11:25.238 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+-[eCommerce] -2020-09-19 22:11:25.238 -DEBUG 9675 --- [task-1] g.hibernate.cfg.annotations.EntityBinder : Import with entity name User
+-[eCommerce] -2020-09-19 22:11:25.238 -DEBUG 9675 --- [task-1] g.hibernate.cfg.annotations.EntityBinder : Bind entity com.udacity.project4.domain.model.User on table user
+-[eCommerce] -2020-09-19 22:11:25.241 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=id, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.241 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property id with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.241 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.User:id]
+-[eCommerce] -2020-09-19 22:11:25.241 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for id
+-[eCommerce] -2020-09-19 22:11:25.241 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property id
+-[eCommerce] -2020-09-19 22:11:25.241 -DEBUG 9675 --- [task-1] org.hibernate.cfg.BinderHelper           : #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+-[eCommerce] -2020-09-19 22:11:25.242 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3JoinColumn{logicalColumnName='cart_id', referencedColumn='id', mappedBy=''}
+-[eCommerce] -2020-09-19 22:11:25.242 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=cart, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.243 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property cart
+-[eCommerce] -2020-09-19 22:11:25.243 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=password, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.243 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property password with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.244 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.User:password]
+-[eCommerce] -2020-09-19 22:11:25.244 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for password
+-[eCommerce] -2020-09-19 22:11:25.244 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property password
+-[eCommerce] -2020-09-19 22:11:25.244 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user), mappingColumn=username, insertable=true, updatable=true, unique=true}
+-[eCommerce] -2020-09-19 22:11:25.244 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property username with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.244 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.User:username]
+-[eCommerce] -2020-09-19 22:11:25.244 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for username
+-[eCommerce] -2020-09-19 22:11:25.244 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property username
+-[eCommerce] -2020-09-19 22:11:25.245 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AnnotationBinder       : Binding entity from annotated class: com.udacity.project4.domain.model.UserOrder
+-[eCommerce] -2020-09-19 22:11:25.245 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+-[eCommerce] -2020-09-19 22:11:25.245 -DEBUG 9675 --- [task-1] g.hibernate.cfg.annotations.EntityBinder : Import with entity name UserOrder
+-[eCommerce] -2020-09-19 22:11:25.245 -DEBUG 9675 --- [task-1] g.hibernate.cfg.annotations.EntityBinder : Bind entity com.udacity.project4.domain.model.UserOrder on table user_order
+-[eCommerce] -2020-09-19 22:11:25.246 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_order), mappingColumn=id, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.246 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property id with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.246 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.UserOrder:id]
+-[eCommerce] -2020-09-19 22:11:25.246 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for id
+-[eCommerce] -2020-09-19 22:11:25.246 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property id
+-[eCommerce] -2020-09-19 22:11:25.247 -DEBUG 9675 --- [task-1] org.hibernate.cfg.BinderHelper           : #makeIdGenerator(org.hibernate.mapping.SimpleValue([org.hibernate.mapping.Column(id)]), id, identity, , ...)
+-[eCommerce] -2020-09-19 22:11:25.247 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_order), mappingColumn=items, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.247 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_order), mappingColumn=null, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.247 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_order), mappingColumn=element, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.247 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_order), mappingColumn=items_key, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.247 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3JoinColumn{logicalColumnName='items_KEY', referencedColumn='null', mappedBy='null'}
+-[eCommerce] -2020-09-19 22:11:25.247 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+-[eCommerce] -2020-09-19 22:11:25.247 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3JoinColumn{logicalColumnName='null', referencedColumn='null', mappedBy=''}
+-[eCommerce] -2020-09-19 22:11:25.247 -DEBUG 9675 --- [task-1] bernate.cfg.annotations.CollectionBinder : Collection role: com.udacity.project4.domain.model.UserOrder.items
+-[eCommerce] -2020-09-19 22:11:25.247 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property items
+-[eCommerce] -2020-09-19 22:11:25.248 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_order), mappingColumn=total, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.248 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property total with lazy=false
+-[eCommerce] -2020-09-19 22:11:25.248 -DEBUG 9675 --- [task-1] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.udacity.project4.domain.model.UserOrder:total]
+-[eCommerce] -2020-09-19 22:11:25.248 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : building SimpleValue for total
+-[eCommerce] -2020-09-19 22:11:25.248 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property total
+-[eCommerce] -2020-09-19 22:11:25.248 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3JoinColumn{logicalColumnName='user_id', referencedColumn='id', mappedBy=''}
+-[eCommerce] -2020-09-19 22:11:25.248 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Ejb3Column             : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(user_order), mappingColumn=user, insertable=true, updatable=true, unique=false}
+-[eCommerce] -2020-09-19 22:11:25.248 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property user
+-[eCommerce] -2020-09-19 22:11:25.249 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for id
+-[eCommerce] -2020-09-19 22:11:25.249 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for total
+-[eCommerce] -2020-09-19 22:11:25.249 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for id
+-[eCommerce] -2020-09-19 22:11:25.249 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for description
+-[eCommerce] -2020-09-19 22:11:25.249 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for name
+-[eCommerce] -2020-09-19 22:11:25.249 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for price
+-[eCommerce] -2020-09-19 22:11:25.249 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for id
+-[eCommerce] -2020-09-19 22:11:25.250 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for password
+-[eCommerce] -2020-09-19 22:11:25.250 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for username
+-[eCommerce] -2020-09-19 22:11:25.250 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for id
+-[eCommerce] -2020-09-19 22:11:25.250 -DEBUG 9675 --- [task-1] ernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for total
+-[eCommerce] -2020-09-19 22:11:25.254 -DEBUG 9675 --- [task-1] org.hibernate.mapping.PrimaryKey         : Forcing column [id] to be non-null as it is part of the primary key for table [cart]
+-[eCommerce] -2020-09-19 22:11:25.254 -DEBUG 9675 --- [task-1] org.hibernate.mapping.PrimaryKey         : Forcing column [id] to be non-null as it is part of the primary key for table [item]
+-[eCommerce] -2020-09-19 22:11:25.254 -DEBUG 9675 --- [task-1] org.hibernate.mapping.PrimaryKey         : Forcing column [id] to be non-null as it is part of the primary key for table [user]
+-[eCommerce] -2020-09-19 22:11:25.254 -DEBUG 9675 --- [task-1] org.hibernate.mapping.PrimaryKey         : Forcing column [id] to be non-null as it is part of the primary key for table [user_order]
+-[eCommerce] -2020-09-19 22:11:25.254 -DEBUG 9675 --- [task-1] org.hibernate.cfg.CollectionSecondPass   : Second pass for collection: com.udacity.project4.domain.model.UserOrder.items
+-[eCommerce] -2020-09-19 22:11:25.255 -DEBUG 9675 --- [task-1] bernate.cfg.annotations.CollectionBinder : Binding as ManyToMany: com.udacity.project4.domain.model.UserOrder.items
+-[eCommerce] -2020-09-19 22:11:25.261 -DEBUG 9675 --- [task-1] org.hibernate.cfg.CollectionSecondPass   : Mapped collection key: user_order_id, element: items_id
+-[eCommerce] -2020-09-19 22:11:25.261 -DEBUG 9675 --- [task-1] org.hibernate.cfg.CollectionSecondPass   : Second pass for collection: com.udacity.project4.domain.model.Cart.items
+-[eCommerce] -2020-09-19 22:11:25.261 -DEBUG 9675 --- [task-1] bernate.cfg.annotations.CollectionBinder : Binding as ManyToMany: com.udacity.project4.domain.model.Cart.items
+-[eCommerce] -2020-09-19 22:11:25.261 -DEBUG 9675 --- [task-1] org.hibernate.cfg.CollectionSecondPass   : Mapped collection key: cart_id, element: items_id
+-[eCommerce] -2020-09-19 22:11:25.262 -DEBUG 9675 --- [task-1] hibernate.cfg.annotations.PropertyBinder : Building property user
+-[eCommerce] -2020-09-19 22:11:25.263 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Processing association property references
+-[eCommerce] -2020-09-19 22:11:25.263 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.Item
+-[eCommerce] -2020-09-19 22:11:25.265 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.Cart
+-[eCommerce] -2020-09-19 22:11:25.265 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.Cart
+-[eCommerce] -2020-09-19 22:11:25.265 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.User
+-[eCommerce] -2020-09-19 22:11:25.265 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.Item
+-[eCommerce] -2020-09-19 22:11:25.266 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.UserOrder
+-[eCommerce] -2020-09-19 22:11:25.267 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Processing association property references
+-[eCommerce] -2020-09-19 22:11:25.267 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.Item
+-[eCommerce] -2020-09-19 22:11:25.267 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.Cart
+-[eCommerce] -2020-09-19 22:11:25.267 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.Cart
+-[eCommerce] -2020-09-19 22:11:25.267 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.User
+-[eCommerce] -2020-09-19 22:11:25.267 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.Item
+-[eCommerce] -2020-09-19 22:11:25.267 -DEBUG 9675 --- [task-1] t.internal.InFlightMetadataCollectorImpl : Resolving reference to class: com.udacity.project4.domain.model.UserOrder
+-[eCommerce] -2020-09-19 22:11:25.288 -DEBUG 9675 --- [task-1] rg.hibernate.internal.SessionFactoryImpl : Building session factory
+-[eCommerce] -2020-09-19 22:11:25.288 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : SessionFactory name : null
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Automatic flush during beforeCompletion(): enabled
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Automatic session close at end of transaction: disabled
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Statistics: disabled
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Deleted entity synthetic identifier rollback: disabled
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Default entity-mode: pojo
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Allow initialization of lazy state outside session : disabled
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Using BatchFetchStyle : LEGACY
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Default batch fetch size: -1
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Maximum outer join fetch depth: null
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Default null ordering: NONE
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Order SQL updates by primary key: disabled
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Order SQL inserts for batching: disabled
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : multi-tenancy strategy : NONE
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : JTA Track by Thread: enabled
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Query language substitutions: {}
+-[eCommerce] -2020-09-19 22:11:25.289 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Named query checking : enabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Second-level cache: disabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Second-level query cache: disabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Second-level query cache factory: null
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Second-level cache region prefix: null
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Optimize second-level cache for minimal puts: disabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Structured second-level cache entries: disabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Second-level cache direct-reference entries: disabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Automatic eviction of collection cache: disabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : JDBC batch size: 15
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : JDBC batch updates for versioned data: enabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Scrollable result sets: enabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Wrap result sets: disabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : JDBC3 getGeneratedKeys(): enabled
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : JDBC result set fetch size: null
+-[eCommerce] -2020-09-19 22:11:25.290 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Connection release mode: ON_CLOSE
+-[eCommerce] -2020-09-19 22:11:25.291 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : Generate SQL with comments: disabled
+-[eCommerce] -2020-09-19 22:11:25.291 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : JPA compliance - query : disabled
+-[eCommerce] -2020-09-19 22:11:25.291 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : JPA compliance - closed-handling : disabled
+-[eCommerce] -2020-09-19 22:11:25.291 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : JPA compliance - lists : disabled
+-[eCommerce] -2020-09-19 22:11:25.291 -DEBUG 9675 --- [task-1] org.hibernate.cfg.Settings               : JPA compliance - transactions : disabled
+-[eCommerce] -2020-09-19 22:11:25.329 -DEBUG 9675 --- [task-1] rg.hibernate.internal.SessionFactoryImpl : Session factory constructed with filter configurations : {}
+-[eCommerce] -2020-09-19 22:11:25.329 -DEBUG 9675 --- [task-1] rg.hibernate.internal.SessionFactoryImpl : Instantiating session factory with properties: {gopherProxySet=false, awt.toolkit=sun.lwawt.macosx.LWCToolkit, hibernate.id.new_generator_mappings=true, java.specification.version=11, sun.cpu.isalist=, hibernate.resource.beans.container=org.springframework.orm.hibernate5.SpringBeanContainer@3377c2e6, hibernate.connection.handling_mode=DELAYED_ACQUISITION_AND_HOLD, sun.jnu.encoding=UTF-8, hibernate.dialect=org.hibernate.dialect.H2Dialect, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, java.class.path=/Users/nauticalist/Projects/Learn/Udacity - Java Web Developer/section_04/project4/target/classes:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-starter-web/2.3.4.RELEASE/spring-boot-starter-web-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-starter/2.3.4.RELEASE/spring-boot-starter-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/nauticalist/.m2/repository/org/yaml/snakeyaml/1.26/snakeyaml-1.26.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-starter-json/2.3.4.RELEASE/spring-boot-starter-json-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.11.2/jackson-datatype-jdk8-2.11.2.jar:/Users/nauticalist/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.2/jackson-datatype-jsr310-2.11.2.jar:/Users/nauticalist/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.11.2/jackson-module-parameter-names-2.11.2.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/2.3.4.RELEASE/spring-boot-starter-tomcat-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/9.0.38/tomcat-embed-core-9.0.38.jar:/Users/nauticalist/.m2/repository/org/glassfish/jakarta.el/3.0.3/jakarta.el-3.0.3.jar:/Users/nauticalist/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/9.0.38/tomcat-embed-websocket-9.0.38.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-web/5.2.9.RELEASE/spring-web-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-beans/5.2.9.RELEASE/spring-beans-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-webmvc/5.2.9.RELEASE/spring-webmvc-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-context/5.2.9.RELEASE/spring-context-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-expression/5.2.9.RELEASE/spring-expression-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/2.3.4.RELEASE/spring-boot-starter-data-jpa-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-starter-aop/2.3.4.RELEASE/spring-boot-starter-aop-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/2.3.4.RELEASE/spring-boot-starter-jdbc-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/com/zaxxer/HikariCP/3.4.5/HikariCP-3.4.5.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-jdbc/5.2.9.RELEASE/spring-jdbc-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/jakarta/transaction/jakarta.transaction-api/1.3.3/jakarta.transaction-api-1.3.3.jar:/Users/nauticalist/.m2/repository/jakarta/persistence/jakarta.persistence-api/2.2.3/jakarta.persistence-api-2.2.3.jar:/Users/nauticalist/.m2/repository/org/hibernate/hibernate-core/5.4.21.Final/hibernate-core-5.4.21.Final.jar:/Users/nauticalist/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/Users/nauticalist/.m2/repository/net/bytebuddy/byte-buddy/1.10.14/byte-buddy-1.10.14.jar:/Users/nauticalist/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/nauticalist/.m2/repository/org/jboss/jandex/2.1.3.Final/jandex-2.1.3.Final.jar:/Users/nauticalist/.m2/repository/org/dom4j/dom4j/2.1.3/dom4j-2.1.3.jar:/Users/nauticalist/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar:/Users/nauticalist/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.3/jaxb-runtime-2.3.3.jar:/Users/nauticalist/.m2/repository/org/glassfish/jaxb/txw2/2.3.3/txw2-2.3.3.jar:/Users/nauticalist/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.11/istack-commons-runtime-3.0.11.jar:/Users/nauticalist/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/nauticalist/.m2/repository/org/springframework/data/spring-data-jpa/2.3.4.RELEASE/spring-data-jpa-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/data/spring-data-commons/2.3.4.RELEASE/spring-data-commons-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-orm/5.2.9.RELEASE/spring-orm-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-tx/5.2.9.RELEASE/spring-tx-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-aspects/5.2.9.RELEASE/spring-aspects-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-starter-security/2.3.4.RELEASE/spring-boot-starter-security-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-aop/5.2.9.RELEASE/spring-aop-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/security/spring-security-config/5.3.4.RELEASE/spring-security-config-5.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/security/spring-security-web/5.3.4.RELEASE/spring-security-web-5.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-starter-log4j2/2.3.4.RELEASE/spring-boot-starter-log4j2-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/apache/logging/log4j/log4j-slf4j-impl/2.13.3/log4j-slf4j-impl-2.13.3.jar:/Users/nauticalist/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/nauticalist/.m2/repository/org/apache/logging/log4j/log4j-core/2.13.3/log4j-core-2.13.3.jar:/Users/nauticalist/.m2/repository/org/apache/logging/log4j/log4j-jul/2.13.3/log4j-jul-2.13.3.jar:/Users/nauticalist/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-devtools/2.3.4.RELEASE/spring-boot-devtools-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot/2.3.4.RELEASE/spring-boot-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.3.4.RELEASE/spring-boot-autoconfigure-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/com/h2database/h2/1.4.200/h2-1.4.200.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/2.3.4.RELEASE/spring-boot-starter-actuator-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/2.3.4.RELEASE/spring-boot-actuator-autoconfigure-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/boot/spring-boot-actuator/2.3.4.RELEASE/spring-boot-actuator-2.3.4.RELEASE.jar:/Users/nauticalist/.m2/repository/io/micrometer/micrometer-core/1.5.5/micrometer-core-1.5.5.jar:/Users/nauticalist/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/Users/nauticalist/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/Users/nauticalist/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/nauticalist/.m2/repository/com/auth0/java-jwt/3.10.3/java-jwt-3.10.3.jar:/Users/nauticalist/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar:/Users/nauticalist/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar:/Users/nauticalist/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar:/Users/nauticalist/.m2/repository/commons-codec/commons-codec/1.14/commons-codec-1.14.jar:/Users/nauticalist/.m2/repository/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar:/Users/nauticalist/.m2/repository/org/hibernate/validator/hibernate-validator/6.1.5.Final/hibernate-validator-6.1.5.Final.jar:/Users/nauticalist/.m2/repository/jakarta/validation/jakarta.validation-api/2.0.2/jakarta.validation-api-2.0.2.jar:/Users/nauticalist/.m2/repository/org/jboss/logging/jboss-logging/3.4.1.Final/jboss-logging-3.4.1.Final.jar:/Users/nauticalist/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/Users/nauticalist/.m2/repository/org/hibernate/validator/hibernate-validator-annotation-processor/6.1.5.Final/hibernate-validator-annotation-processor-6.1.5.Final.jar:/Users/nauticalist/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar:/Users/nauticalist/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.2/jakarta.activation-api-1.2.2.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-core/5.2.9.RELEASE/spring-core-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/spring-jcl/5.2.9.RELEASE/spring-jcl-5.2.9.RELEASE.jar:/Users/nauticalist/.m2/repository/org/springframework/security/spring-security-core/5.3.4.RELEASE/spring-security-core-5.3.4.RELEASE.jar, java.vm.vendor=AdoptOpenJDK, sun.arch.data.model=64, java.vendor.url=https://adoptopenjdk.net/, catalina.useNaming=false, user.timezone=Europe/Istanbul, os.name=Mac OS X, java.vm.specification.version=11, javax.persistence.validation.mode=AUTO, sun.java.launcher=SUN_STANDARD, user.country=TR, sun.boot.library.path=/Users/nauticalist/.sdkman/candidates/java/11.0.8.hs-adpt/lib, sun.java.command=com.udacity.project4.Project4Application, javax.persistence.nonJtaDataSource=HikariDataSource (HikariPool-1), hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@7e370c2e, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, javax.persistence.sharedCache.mode=UNSPECIFIED, jdk.debug=release, sun.cpu.endian=little, user.home=/Users/nauticalist, user.language=en, java.specification.vendor=Oracle Corporation, java.version.date=2020-07-14, java.home=/Users/nauticalist/.sdkman/candidates/java/11.0.8.hs-adpt, file.separator=/, java.vm.compressedOopsMode=Zero based, line.separator=
+, java.specification.name=Java Platform API Specification, java.vm.specification.vendor=Oracle Corporation, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, java.awt.headless=true, hibernate.hbm2ddl.auto=update, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.runtime.version=11.0.8+10, user.name=nauticalist, path.separator=:, os.version=10.15.6, java.runtime.name=OpenJDK Runtime Environment, file.encoding=UTF-8, FILE_LOG_PATTERN=[eCommerce] %d{-yyyy-MM-dd HH:mm:ss.SSS} -%5p 9675 --- [%t] %-40.40logger{39} : %m%n-%wEx, hibernate.ejb.persistenceUnitName=default, spring.beaninfo.ignore=true, java.vm.name=OpenJDK 64-Bit Server VM, java.vendor.version=AdoptOpenJDK, LOG_FILE=logs/application-debug.log, java.vendor.url.bug=https://github.com/AdoptOpenJDK/openjdk-support/issues, java.io.tmpdir=/var/folders/cn/sfljhl2x07b0rbyhk1dpqgkw0000gn/T/, com.zaxxer.hikari.pool_number=1, catalina.home=/private/var/folders/cn/sfljhl2x07b0rbyhk1dpqgkw0000gn/T/tomcat.11974908890555917642.8080, java.version=11.0.8, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, user.dir=/Users/nauticalist/Projects/Learn/Udacity - Java Web Developer/section_04/project4, os.arch=x86_64, java.vm.specification.name=Java Virtual Machine Specification, PID=9675, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.os.patch.level=unknown, catalina.base=/private/var/folders/cn/sfljhl2x07b0rbyhk1dpqgkw0000gn/T/tomcat.11974908890555917642.8080, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.registry.StandardServiceRegistryBuilder$1@ccd9175, java.library.path=/Users/nauticalist/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor=AdoptOpenJDK, java.vm.info=mixed mode, java.vm.version=11.0.8+10, hibernate.bytecode.use_reflection_optimizer=false, sun.io.unicode.encoding=UnicodeBig, hibernate.archive.scanner=org.hibernate.boot.archive.scan.internal.DisabledScanner, hibernate.connection.datasource=HikariDataSource (HikariPool-1), socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, CONSOLE_LOG_PATTERN=[eCommerce] %d{-yyyy-MM-dd HH:mm:ss.SSS} -%5p 9675 --- [%t] %-40.40logger{39} : %m%n-%wEx, java.class.version=55.0}
+-[eCommerce] -2020-09-19 22:11:25.392 -DEBUG 9675 --- [task-1] .internal.xml.config.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+-[eCommerce] -2020-09-19 22:11:25.392 -DEBUG 9675 --- [task-1] internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+-[eCommerce] -2020-09-19 22:11:25.392 -DEBUG 9675 --- [task-1] internal.xml.config.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+-[eCommerce] -2020-09-19 22:11:25.392 -DEBUG 9675 --- [task-1] .internal.xml.config.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+-[eCommerce] -2020-09-19 22:11:25.392 -DEBUG 9675 --- [task-1] nal.engine.resolver.TraversableResolvers : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+-[eCommerce] -2020-09-19 22:11:25.392 -DEBUG 9675 --- [task-1] nal.engine.resolver.TraversableResolvers : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+-[eCommerce] -2020-09-19 22:11:25.392 -DEBUG 9675 --- [task-1] lation.ResourceBundleMessageInterpolator : Loaded expression factory via original TCCL
+-[eCommerce] -2020-09-19 22:11:25.393 -DEBUG 9675 --- [task-1] gine.ValidatorFactoryConfigurationHelper : HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+-[eCommerce] -2020-09-19 22:11:25.395 -DEBUG 9675 --- [task-1] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+-[eCommerce] -2020-09-19 22:11:25.395 -DEBUG 9675 --- [task-1] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+-[eCommerce] -2020-09-19 22:11:25.395 -DEBUG 9675 --- [task-1] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+-[eCommerce] -2020-09-19 22:11:25.395 -DEBUG 9675 --- [task-1] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+-[eCommerce] -2020-09-19 22:11:25.395 -DEBUG 9675 --- [task-1] gine.ValidatorFactoryConfigurationHelper : HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+-[eCommerce] -2020-09-19 22:11:25.396 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.UserOrder] is safe
+-[eCommerce] -2020-09-19 22:11:25.396 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.UserOrder
+-[eCommerce] -2020-09-19 22:11:25.419 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.Cart] is safe
+-[eCommerce] -2020-09-19 22:11:25.420 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.Cart
+-[eCommerce] -2020-09-19 22:11:25.422 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.User] is safe
+-[eCommerce] -2020-09-19 22:11:25.422 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.User
+-[eCommerce] -2020-09-19 22:11:25.424 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.Item] is safe
+-[eCommerce] -2020-09-19 22:11:25.424 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.Item
+-[eCommerce] -2020-09-19 22:11:25.427 -DEBUG 9675 --- [task-1] org.hibernate.secure.spi.JaccIntegrator  : Skipping JACC integration as it was not enabled
+-[eCommerce] -2020-09-19 22:11:25.428 -DEBUG 9675 --- [task-1] rg.hibernate.internal.SessionFactoryImpl : Instantiated session factory
+-[eCommerce] -2020-09-19 22:11:25.428 -DEBUG 9675 --- [task-1] bernate.type.spi.TypeConfiguration$Scope : Scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration@9581b80] to SessionFactoryImpl [org.hibernate.internal.SessionFactoryImpl@4973da9d]
+-[eCommerce] -2020-09-19 22:11:25.448 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.UserOrder] is safe
+-[eCommerce] -2020-09-19 22:11:25.448 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.UserOrder
+-[eCommerce] -2020-09-19 22:11:25.458 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.UserOrder] is safe
+-[eCommerce] -2020-09-19 22:11:25.458 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.UserOrder
+-[eCommerce] -2020-09-19 22:11:25.620 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.Cart] is safe
+-[eCommerce] -2020-09-19 22:11:25.620 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.Cart
+-[eCommerce] -2020-09-19 22:11:25.620 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.Cart] is safe
+-[eCommerce] -2020-09-19 22:11:25.620 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.Cart
+-[eCommerce] -2020-09-19 22:11:25.631 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.User] is safe
+-[eCommerce] -2020-09-19 22:11:25.632 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.User
+-[eCommerce] -2020-09-19 22:11:25.632 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.User] is safe
+-[eCommerce] -2020-09-19 22:11:25.632 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.User
+-[eCommerce] -2020-09-19 22:11:25.640 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.Item] is safe
+-[eCommerce] -2020-09-19 22:11:25.640 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.Item
+-[eCommerce] -2020-09-19 22:11:25.640 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.udacity.project4.domain.model.Item] is safe
+-[eCommerce] -2020-09-19 22:11:25.640 -DEBUG 9675 --- [task-1] nate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.udacity.project4.domain.model.Item
+-[eCommerce] -2020-09-19 22:11:25.653 -DEBUG 9675 --- [task-1] r.collection.AbstractCollectionPersister : Static SQL for collection: com.udacity.project4.domain.model.Cart.items
+-[eCommerce] -2020-09-19 22:11:25.653 -DEBUG 9675 --- [task-1] r.collection.AbstractCollectionPersister :  Row insert: insert into cart_items (cart_id, items_id) values (?, ?)
+-[eCommerce] -2020-09-19 22:11:25.653 -DEBUG 9675 --- [task-1] r.collection.AbstractCollectionPersister :  Row update: update cart_items set items_id=? where cart_id=? and items_id=?
+-[eCommerce] -2020-09-19 22:11:25.653 -DEBUG 9675 --- [task-1] r.collection.AbstractCollectionPersister :  Row delete: delete from cart_items where cart_id=? and items_id=?
+-[eCommerce] -2020-09-19 22:11:25.653 -DEBUG 9675 --- [task-1] r.collection.AbstractCollectionPersister :  One-shot delete: delete from cart_items where cart_id=?
+-[eCommerce] -2020-09-19 22:11:25.653 -DEBUG 9675 --- [task-1] r.collection.AbstractCollectionPersister : Static SQL for collection: com.udacity.project4.domain.model.UserOrder.items
+-[eCommerce] -2020-09-19 22:11:25.654 -DEBUG 9675 --- [task-1] r.collection.AbstractCollectionPersister :  Row insert: insert into user_order_items (user_order_id, items_id) values (?, ?)
+-[eCommerce] -2020-09-19 22:11:25.654 -DEBUG 9675 --- [task-1] r.collection.AbstractCollectionPersister :  Row update: update user_order_items set items_id=? where user_order_id=? and items_id=?
+-[eCommerce] -2020-09-19 22:11:25.654 -DEBUG 9675 --- [task-1] r.collection.AbstractCollectionPersister :  Row delete: delete from user_order_items where user_order_id=? and items_id=?
+-[eCommerce] -2020-09-19 22:11:25.654 -DEBUG 9675 --- [task-1] r.collection.AbstractCollectionPersister :  One-shot delete: delete from user_order_items where user_order_id=?
+-[eCommerce] -2020-09-19 22:11:25.657 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister : Static SQL for entity: com.udacity.project4.domain.model.UserOrder
+-[eCommerce] -2020-09-19 22:11:25.657 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Version select: select id from user_order where id =?
+-[eCommerce] -2020-09-19 22:11:25.657 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Snapshot select: select userorder_.id, userorder_.total as total2_4_, userorder_.user_id as user_id3_4_ from user_order userorder_ where userorder_.id=?
+-[eCommerce] -2020-09-19 22:11:25.657 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Insert 0: insert into user_order (total, user_id, id) values (?, ?, ?)
+-[eCommerce] -2020-09-19 22:11:25.658 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Update 0: update user_order set total=?, user_id=? where id=?
+-[eCommerce] -2020-09-19 22:11:25.658 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Delete 0: delete from user_order where id=?
+-[eCommerce] -2020-09-19 22:11:25.658 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Identity insert: insert into user_order (id, total, user_id) values (null, ?, ?)
+-[eCommerce] -2020-09-19 22:11:25.689 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@451dbf15]
+-[eCommerce] -2020-09-19 22:11:25.690 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : items
+-[eCommerce] -2020-09-19 22:11:25.692 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3f47c4a]
+-[eCommerce] -2020-09-19 22:11:25.693 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5cceca8a]
+-[eCommerce] -2020-09-19 22:11:25.694 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : total
+-[eCommerce] -2020-09-19 22:11:25.694 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user
+-[eCommerce] -2020-09-19 22:11:25.694 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5be41b43]
+-[eCommerce] -2020-09-19 22:11:25.695 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.cart
+-[eCommerce] -2020-09-19 22:11:25.695 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5693f686]
+-[eCommerce] -2020-09-19 22:11:25.695 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.cart.items
+-[eCommerce] -2020-09-19 22:11:25.695 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@46e78ac1]
+-[eCommerce] -2020-09-19 22:11:25.695 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@75ecda5b]
+-[eCommerce] -2020-09-19 22:11:25.695 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.cart.total
+-[eCommerce] -2020-09-19 22:11:25.695 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.cart.user
+-[eCommerce] -2020-09-19 22:11:25.695 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Property path deemed to be circular : user.cart.user
+-[eCommerce] -2020-09-19 22:11:25.696 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.password
+-[eCommerce] -2020-09-19 22:11:25.696 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.username
+-[eCommerce] -2020-09-19 22:11:25.696 -DEBUG 9675 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+-[eCommerce] -2020-09-19 22:11:25.702 -DEBUG 9675 --- [task-1] .internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+-[eCommerce] -2020-09-19 22:11:25.705 -DEBUG 9675 --- [task-1] oader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.udacity.project4.domain.model.UserOrder)
+    - Returns
+       - EntityReturnImpl(entity=com.udacity.project4.domain.model.UserOrder, querySpaceUid=<gen:0>, path=com.udacity.project4.domain.model.UserOrder)
+          - CollectionAttributeFetchImpl(collection=com.udacity.project4.domain.model.UserOrder.items, querySpaceUid=<gen:1>, path=com.udacity.project4.domain.model.UserOrder.items)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:2>, path=com.udacity.project4.domain.model.UserOrder.items.<elements>)
+          - EntityAttributeFetchImpl(entity=com.udacity.project4.domain.model.User, querySpaceUid=<gen:3>, path=com.udacity.project4.domain.model.UserOrder.user)
+             - EntityAttributeFetchImpl(entity=com.udacity.project4.domain.model.Cart, querySpaceUid=<gen:4>, path=com.udacity.project4.domain.model.UserOrder.user.cart)
+                - CollectionAttributeFetchImpl(collection=com.udacity.project4.domain.model.Cart.items, querySpaceUid=<gen:5>, path=com.udacity.project4.domain.model.UserOrder.user.cart.items)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:6>, path=com.udacity.project4.domain.model.UserOrder.user.cart.items.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.udacity.project4.domain.model.UserOrder)
+          - SQL table alias mapping - userorder0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.udacity.project4.domain.model.User)
+                - SQL table alias mapping - user1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_3_1_}
+                - JOIN (JoinDefinedByMetadata(cart)) : <gen:3> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.udacity.project4.domain.model.Cart)
+                      - SQL table alias mapping - cart2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+-[eCommerce] -2020-09-19 22:11:25.707 -DEBUG 9675 --- [task-1] ibernate.loader.entity.plan.EntityLoader : Static select for entity com.udacity.project4.domain.model.UserOrder [NONE]: select userorder0_.id as id1_4_0_, userorder0_.total as total2_4_0_, userorder0_.user_id as user_id3_4_0_, user1_.id as id1_3_1_, user1_.cart_id as cart_id4_3_1_, user1_.password as password2_3_1_, user1_.username as username3_3_1_, cart2_.id as id1_0_2_, cart2_.total as total2_0_2_ from user_order userorder0_ inner join user user1_ on userorder0_.user_id=user1_.id left outer join cart cart2_ on user1_.cart_id=cart2_.id where userorder0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.707 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@620e3aa8]
+-[eCommerce] -2020-09-19 22:11:25.707 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : items
+-[eCommerce] -2020-09-19 22:11:25.707 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3f17bd9d]
+-[eCommerce] -2020-09-19 22:11:25.707 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@56cc2cc4]
+-[eCommerce] -2020-09-19 22:11:25.707 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : total
+-[eCommerce] -2020-09-19 22:11:25.707 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@450487cf]
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.cart
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:4> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@516b9462]
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.cart.items
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:5> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@7adf169]
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:6> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@457b95a4]
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.cart.total
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.cart.user
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Property path deemed to be circular : user.cart.user
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.password
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.username
+-[eCommerce] -2020-09-19 22:11:25.708 -DEBUG 9675 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+-[eCommerce] -2020-09-19 22:11:25.709 -DEBUG 9675 --- [task-1] .internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+-[eCommerce] -2020-09-19 22:11:25.709 -DEBUG 9675 --- [task-1] oader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.udacity.project4.domain.model.UserOrder)
+    - Returns
+       - EntityReturnImpl(entity=com.udacity.project4.domain.model.UserOrder, querySpaceUid=<gen:0>, path=com.udacity.project4.domain.model.UserOrder)
+          - CollectionAttributeFetchImpl(collection=com.udacity.project4.domain.model.UserOrder.items, querySpaceUid=<gen:1>, path=com.udacity.project4.domain.model.UserOrder.items)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:2>, path=com.udacity.project4.domain.model.UserOrder.items.<elements>)
+          - EntityAttributeFetchImpl(entity=com.udacity.project4.domain.model.User, querySpaceUid=<gen:3>, path=com.udacity.project4.domain.model.UserOrder.user)
+             - EntityAttributeFetchImpl(entity=com.udacity.project4.domain.model.Cart, querySpaceUid=<gen:4>, path=com.udacity.project4.domain.model.UserOrder.user.cart)
+                - CollectionAttributeFetchImpl(collection=com.udacity.project4.domain.model.Cart.items, querySpaceUid=<gen:5>, path=com.udacity.project4.domain.model.UserOrder.user.cart.items)
+                   - (collection element) CollectionFetchableElementEntityGraph(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:6>, path=com.udacity.project4.domain.model.UserOrder.user.cart.items.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.udacity.project4.domain.model.UserOrder)
+          - SQL table alias mapping - userorder0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_4_0_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.udacity.project4.domain.model.User)
+                - SQL table alias mapping - user1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_3_1_}
+                - JOIN (JoinDefinedByMetadata(cart)) : <gen:3> -> <gen:4>
+                   - EntityQuerySpaceImpl(uid=<gen:4>, entity=com.udacity.project4.domain.model.Cart)
+                      - SQL table alias mapping - cart2_
+                      - alias suffix - 2_
+                      - suffixed key columns - {id1_0_2_}
+
+-[eCommerce] -2020-09-19 22:11:25.710 -DEBUG 9675 --- [task-1] ibernate.loader.entity.plan.EntityLoader : Static select for entity com.udacity.project4.domain.model.UserOrder [READ]: select userorder0_.id as id1_4_0_, userorder0_.total as total2_4_0_, userorder0_.user_id as user_id3_4_0_, user1_.id as id1_3_1_, user1_.cart_id as cart_id4_3_1_, user1_.password as password2_3_1_, user1_.username as username3_3_1_, cart2_.id as id1_0_2_, cart2_.total as total2_0_2_ from user_order userorder0_ inner join user user1_ on userorder0_.user_id=user1_.id left outer join cart cart2_ on user1_.cart_id=cart2_.id where userorder0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.716 -DEBUG 9675 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_MERGE on entity com.udacity.project4.domain.model.UserOrder: select userorder0_.id as id1_4_1_, userorder0_.total as total2_4_1_, userorder0_.user_id as user_id3_4_1_, items1_.user_order_id as user_ord1_5_3_, item2_.id as items_id2_5_3_, item2_.id as id1_2_0_, item2_.description as descript2_2_0_, item2_.name as name3_2_0_, item2_.price as price4_2_0_ from user_order userorder0_ left outer join user_order_items items1_ on userorder0_.id=items1_.user_order_id left outer join item item2_ on items1_.items_id=item2_.id where userorder0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.717 -DEBUG 9675 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_REFRESH on entity com.udacity.project4.domain.model.UserOrder: select userorder0_.id as id1_4_1_, userorder0_.total as total2_4_1_, userorder0_.user_id as user_id3_4_1_, items1_.user_order_id as user_ord1_5_3_, item2_.id as items_id2_5_3_, item2_.id as id1_2_0_, item2_.description as descript2_2_0_, item2_.name as name3_2_0_, item2_.price as price4_2_0_ from user_order userorder0_ left outer join user_order_items items1_ on userorder0_.id=items1_.user_order_id left outer join item item2_ on items1_.items_id=item2_.id where userorder0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.717 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister : Static SQL for entity: com.udacity.project4.domain.model.Cart
+-[eCommerce] -2020-09-19 22:11:25.717 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Version select: select id from cart where id =?
+-[eCommerce] -2020-09-19 22:11:25.717 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Snapshot select: select cart_.id, cart_.total as total2_0_ from cart cart_ where cart_.id=?
+-[eCommerce] -2020-09-19 22:11:25.717 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Insert 0: insert into cart (total, id) values (?, ?)
+-[eCommerce] -2020-09-19 22:11:25.717 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Update 0: update cart set total=? where id=?
+-[eCommerce] -2020-09-19 22:11:25.717 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Delete 0: delete from cart where id=?
+-[eCommerce] -2020-09-19 22:11:25.717 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Identity insert: insert into cart (id, total) values (null, ?)
+-[eCommerce] -2020-09-19 22:11:25.717 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@cd76bfe]
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : items
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@259ca389]
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5fd94ec1]
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : total
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68e6465f]
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.cart
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Property path deemed to be circular : user.cart
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.password
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.username
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+-[eCommerce] -2020-09-19 22:11:25.720 -DEBUG 9675 --- [task-1] .internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+-[eCommerce] -2020-09-19 22:11:25.721 -DEBUG 9675 --- [task-1] oader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.udacity.project4.domain.model.Cart)
+    - Returns
+       - EntityReturnImpl(entity=com.udacity.project4.domain.model.Cart, querySpaceUid=<gen:0>, path=com.udacity.project4.domain.model.Cart)
+          - CollectionAttributeFetchImpl(collection=com.udacity.project4.domain.model.Cart.items, querySpaceUid=<gen:1>, path=com.udacity.project4.domain.model.Cart.items)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:2>, path=com.udacity.project4.domain.model.Cart.items.<elements>)
+          - EntityAttributeFetchImpl(entity=com.udacity.project4.domain.model.User, querySpaceUid=<gen:3>, path=com.udacity.project4.domain.model.Cart.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.udacity.project4.domain.model.Cart)
+          - SQL table alias mapping - cart0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.udacity.project4.domain.model.User)
+                - SQL table alias mapping - user1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_3_1_}
+
+-[eCommerce] -2020-09-19 22:11:25.721 -DEBUG 9675 --- [task-1] ibernate.loader.entity.plan.EntityLoader : Static select for entity com.udacity.project4.domain.model.Cart [NONE]: select cart0_.id as id1_0_0_, cart0_.total as total2_0_0_, user1_.id as id1_3_1_, user1_.cart_id as cart_id4_3_1_, user1_.password as password2_3_1_, user1_.username as username3_3_1_ from cart cart0_ left outer join user user1_ on cart0_.id=user1_.cart_id where cart0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.721 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@645a3c0e]
+-[eCommerce] -2020-09-19 22:11:25.722 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : items
+-[eCommerce] -2020-09-19 22:11:25.722 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@2b6ebddf]
+-[eCommerce] -2020-09-19 22:11:25.722 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5d9d96f6]
+-[eCommerce] -2020-09-19 22:11:25.722 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : total
+-[eCommerce] -2020-09-19 22:11:25.722 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user
+-[eCommerce] -2020-09-19 22:11:25.722 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@68127b07]
+-[eCommerce] -2020-09-19 22:11:25.722 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.cart
+-[eCommerce] -2020-09-19 22:11:25.722 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Property path deemed to be circular : user.cart
+-[eCommerce] -2020-09-19 22:11:25.722 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.password
+-[eCommerce] -2020-09-19 22:11:25.722 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : user.username
+-[eCommerce] -2020-09-19 22:11:25.723 -DEBUG 9675 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+-[eCommerce] -2020-09-19 22:11:25.723 -DEBUG 9675 --- [task-1] .internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+-[eCommerce] -2020-09-19 22:11:25.723 -DEBUG 9675 --- [task-1] oader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.udacity.project4.domain.model.Cart)
+    - Returns
+       - EntityReturnImpl(entity=com.udacity.project4.domain.model.Cart, querySpaceUid=<gen:0>, path=com.udacity.project4.domain.model.Cart)
+          - CollectionAttributeFetchImpl(collection=com.udacity.project4.domain.model.Cart.items, querySpaceUid=<gen:1>, path=com.udacity.project4.domain.model.Cart.items)
+             - (collection element) CollectionFetchableElementEntityGraph(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:2>, path=com.udacity.project4.domain.model.Cart.items.<elements>)
+          - EntityAttributeFetchImpl(entity=com.udacity.project4.domain.model.User, querySpaceUid=<gen:3>, path=com.udacity.project4.domain.model.Cart.user)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.udacity.project4.domain.model.Cart)
+          - SQL table alias mapping - cart0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+          - JOIN (JoinDefinedByMetadata(user)) : <gen:0> -> <gen:3>
+             - EntityQuerySpaceImpl(uid=<gen:3>, entity=com.udacity.project4.domain.model.User)
+                - SQL table alias mapping - user1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_3_1_}
+
+-[eCommerce] -2020-09-19 22:11:25.723 -DEBUG 9675 --- [task-1] ibernate.loader.entity.plan.EntityLoader : Static select for entity com.udacity.project4.domain.model.Cart [READ]: select cart0_.id as id1_0_0_, cart0_.total as total2_0_0_, user1_.id as id1_3_1_, user1_.cart_id as cart_id4_3_1_, user1_.password as password2_3_1_, user1_.username as username3_3_1_ from cart cart0_ left outer join user user1_ on cart0_.id=user1_.cart_id where cart0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.723 -DEBUG 9675 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_MERGE on entity com.udacity.project4.domain.model.Cart: select cart0_.id as id1_0_0_, cart0_.total as total2_0_0_ from cart cart0_ where cart0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.724 -DEBUG 9675 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_REFRESH on entity com.udacity.project4.domain.model.Cart: select cart0_.id as id1_0_0_, cart0_.total as total2_0_0_ from cart cart0_ where cart0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.724 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister : Static SQL for entity: com.udacity.project4.domain.model.User
+-[eCommerce] -2020-09-19 22:11:25.724 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Version select: select id from user where id =?
+-[eCommerce] -2020-09-19 22:11:25.724 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Snapshot select: select user_.id, user_.cart_id as cart_id4_3_, user_.password as password2_3_, user_.username as username3_3_ from user user_ where user_.id=?
+-[eCommerce] -2020-09-19 22:11:25.724 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Insert 0: insert into user (cart_id, password, username, id) values (?, ?, ?, ?)
+-[eCommerce] -2020-09-19 22:11:25.724 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Update 0: update user set cart_id=?, password=?, username=? where id=?
+-[eCommerce] -2020-09-19 22:11:25.724 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Delete 0: delete from user where id=?
+-[eCommerce] -2020-09-19 22:11:25.724 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Identity insert: insert into user (id, cart_id, password, username) values (null, ?, ?, ?)
+-[eCommerce] -2020-09-19 22:11:25.724 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4113d1ad]
+-[eCommerce] -2020-09-19 22:11:25.724 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : cart
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@bb9521a]
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : cart.items
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@23fc6fc7]
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@156864da]
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : cart.total
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : cart.user
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Property path deemed to be circular : cart.user
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : password
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : username
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+-[eCommerce] -2020-09-19 22:11:25.725 -DEBUG 9675 --- [task-1] .internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+-[eCommerce] -2020-09-19 22:11:25.726 -DEBUG 9675 --- [task-1] oader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.udacity.project4.domain.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.udacity.project4.domain.model.User, querySpaceUid=<gen:0>, path=com.udacity.project4.domain.model.User)
+          - EntityAttributeFetchImpl(entity=com.udacity.project4.domain.model.Cart, querySpaceUid=<gen:1>, path=com.udacity.project4.domain.model.User.cart)
+             - CollectionAttributeFetchImpl(collection=com.udacity.project4.domain.model.Cart.items, querySpaceUid=<gen:2>, path=com.udacity.project4.domain.model.User.cart.items)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:3>, path=com.udacity.project4.domain.model.User.cart.items.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.udacity.project4.domain.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+          - JOIN (JoinDefinedByMetadata(cart)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.udacity.project4.domain.model.Cart)
+                - SQL table alias mapping - cart1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+-[eCommerce] -2020-09-19 22:11:25.726 -DEBUG 9675 --- [task-1] ibernate.loader.entity.plan.EntityLoader : Static select for entity com.udacity.project4.domain.model.User [NONE]: select user0_.id as id1_3_0_, user0_.cart_id as cart_id4_3_0_, user0_.password as password2_3_0_, user0_.username as username3_3_0_, cart1_.id as id1_0_1_, cart1_.total as total2_0_1_ from user user0_ left outer join cart cart1_ on user0_.cart_id=cart1_.id where user0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.726 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5400cdef]
+-[eCommerce] -2020-09-19 22:11:25.726 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : cart
+-[eCommerce] -2020-09-19 22:11:25.726 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2536a0e]
+-[eCommerce] -2020-09-19 22:11:25.727 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : cart.items
+-[eCommerce] -2020-09-19 22:11:25.727 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:2> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@67640f9]
+-[eCommerce] -2020-09-19 22:11:25.727 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:3> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4996b82c]
+-[eCommerce] -2020-09-19 22:11:25.727 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : cart.total
+-[eCommerce] -2020-09-19 22:11:25.727 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : cart.user
+-[eCommerce] -2020-09-19 22:11:25.727 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Property path deemed to be circular : cart.user
+-[eCommerce] -2020-09-19 22:11:25.727 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : password
+-[eCommerce] -2020-09-19 22:11:25.727 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : username
+-[eCommerce] -2020-09-19 22:11:25.727 -DEBUG 9675 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+-[eCommerce] -2020-09-19 22:11:25.727 -DEBUG 9675 --- [task-1] .internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+-[eCommerce] -2020-09-19 22:11:25.728 -DEBUG 9675 --- [task-1] oader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.udacity.project4.domain.model.User)
+    - Returns
+       - EntityReturnImpl(entity=com.udacity.project4.domain.model.User, querySpaceUid=<gen:0>, path=com.udacity.project4.domain.model.User)
+          - EntityAttributeFetchImpl(entity=com.udacity.project4.domain.model.Cart, querySpaceUid=<gen:1>, path=com.udacity.project4.domain.model.User.cart)
+             - CollectionAttributeFetchImpl(collection=com.udacity.project4.domain.model.Cart.items, querySpaceUid=<gen:2>, path=com.udacity.project4.domain.model.User.cart.items)
+                - (collection element) CollectionFetchableElementEntityGraph(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:3>, path=com.udacity.project4.domain.model.User.cart.items.<elements>)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.udacity.project4.domain.model.User)
+          - SQL table alias mapping - user0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_3_0_}
+          - JOIN (JoinDefinedByMetadata(cart)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.udacity.project4.domain.model.Cart)
+                - SQL table alias mapping - cart1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_0_1_}
+
+-[eCommerce] -2020-09-19 22:11:25.728 -DEBUG 9675 --- [task-1] ibernate.loader.entity.plan.EntityLoader : Static select for entity com.udacity.project4.domain.model.User [READ]: select user0_.id as id1_3_0_, user0_.cart_id as cart_id4_3_0_, user0_.password as password2_3_0_, user0_.username as username3_3_0_, cart1_.id as id1_0_1_, cart1_.total as total2_0_1_ from user user0_ left outer join cart cart1_ on user0_.cart_id=cart1_.id where user0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.728 -DEBUG 9675 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_MERGE on entity com.udacity.project4.domain.model.User: select user0_.id as id1_3_1_, user0_.cart_id as cart_id4_3_1_, user0_.password as password2_3_1_, user0_.username as username3_3_1_, cart1_.id as id1_0_0_, cart1_.total as total2_0_0_ from user user0_ left outer join cart cart1_ on user0_.cart_id=cart1_.id where user0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.728 -DEBUG 9675 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_REFRESH on entity com.udacity.project4.domain.model.User: select user0_.id as id1_3_1_, user0_.cart_id as cart_id4_3_1_, user0_.password as password2_3_1_, user0_.username as username3_3_1_, cart1_.id as id1_0_0_, cart1_.total as total2_0_0_ from user user0_ left outer join cart cart1_ on user0_.cart_id=cart1_.id where user0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] org.hibernate.loader.Loader              : Static select for entity com.udacity.project4.domain.model.User [NONE]: select user0_.id as id1_3_1_, user0_.cart_id as cart_id4_3_1_, user0_.password as password2_3_1_, user0_.username as username3_3_1_, cart1_.id as id1_0_0_, cart1_.total as total2_0_0_ from user user0_ left outer join cart cart1_ on user0_.cart_id=cart1_.id where user0_.cart_id=?
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister : Static SQL for entity: com.udacity.project4.domain.model.Item
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Version select: select id from item where id =?
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Snapshot select: select item_.id, item_.description as descript2_2_, item_.name as name3_2_, item_.price as price4_2_ from item item_ where item_.id=?
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Insert 0: insert into item (description, name, price, id) values (?, ?, ?, ?)
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Update 0: update item set description=?, name=?, price=? where id=?
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Delete 0: delete from item where id=?
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] persister.entity.AbstractEntityPersister :  Identity insert: insert into item (id, description, name, price) values (null, ?, ?, ?)
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@20266c2d]
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : description
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+-[eCommerce] -2020-09-19 22:11:25.730 -DEBUG 9675 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+-[eCommerce] -2020-09-19 22:11:25.731 -DEBUG 9675 --- [task-1] .internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+-[eCommerce] -2020-09-19 22:11:25.731 -DEBUG 9675 --- [task-1] oader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.udacity.project4.domain.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:0>, path=com.udacity.project4.domain.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.udacity.project4.domain.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+-[eCommerce] -2020-09-19 22:11:25.731 -DEBUG 9675 --- [task-1] ibernate.loader.entity.plan.EntityLoader : Static select for entity com.udacity.project4.domain.model.Item [NONE]: select item0_.id as id1_2_0_, item0_.description as descript2_2_0_, item0_.name as name3_2_0_, item0_.price as price4_2_0_ from item item0_ where item0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.731 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@388f261d]
+-[eCommerce] -2020-09-19 22:11:25.731 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : description
+-[eCommerce] -2020-09-19 22:11:25.731 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+-[eCommerce] -2020-09-19 22:11:25.731 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+-[eCommerce] -2020-09-19 22:11:25.731 -DEBUG 9675 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+-[eCommerce] -2020-09-19 22:11:25.731 -DEBUG 9675 --- [task-1] .internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+-[eCommerce] -2020-09-19 22:11:25.732 -DEBUG 9675 --- [task-1] oader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.udacity.project4.domain.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:0>, path=com.udacity.project4.domain.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.udacity.project4.domain.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_2_0_}
+
+-[eCommerce] -2020-09-19 22:11:25.732 -DEBUG 9675 --- [task-1] ibernate.loader.entity.plan.EntityLoader : Static select for entity com.udacity.project4.domain.model.Item [READ]: select item0_.id as id1_2_0_, item0_.description as descript2_2_0_, item0_.name as name3_2_0_, item0_.price as price4_2_0_ from item item0_ where item0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.732 -DEBUG 9675 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_MERGE on entity com.udacity.project4.domain.model.Item: select item0_.id as id1_2_0_, item0_.description as descript2_2_0_, item0_.name as name3_2_0_, item0_.price as price4_2_0_ from item item0_ where item0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.732 -DEBUG 9675 --- [task-1] org.hibernate.loader.Loader              : Static select for action ACTION_REFRESH on entity com.udacity.project4.domain.model.Item: select item0_.id as id1_2_0_, item0_.description as descript2_2_0_, item0_.name as name3_2_0_, item0_.price as price4_2_0_ from item item0_ where item0_.id=?
+-[eCommerce] -2020-09-19 22:11:25.735 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@21c8561b]
+-[eCommerce] -2020-09-19 22:11:25.735 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@60dc0200]
+-[eCommerce] -2020-09-19 22:11:25.735 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : description
+-[eCommerce] -2020-09-19 22:11:25.735 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+-[eCommerce] -2020-09-19 22:11:25.735 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+-[eCommerce] -2020-09-19 22:11:25.736 -DEBUG 9675 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+-[eCommerce] -2020-09-19 22:11:25.737 -DEBUG 9675 --- [task-1] .internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+-[eCommerce] -2020-09-19 22:11:25.737 -DEBUG 9675 --- [task-1] oader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(collection=com.udacity.project4.domain.model.Cart.items)
+    - Returns
+       - CollectionReturnImpl(collection=com.udacity.project4.domain.model.Cart.items, querySpaceUid=<gen:0>, path=[com.udacity.project4.domain.model.Cart.items])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:1>, path=[com.udacity.project4.domain.model.Cart.items].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.udacity.project4.domain.model.Cart.items)
+          - SQL table alias mapping - items0_
+          - alias suffix - 0_
+          - suffixed key columns - {cart_id1_1_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.udacity.project4.domain.model.Item)
+                - SQL table alias mapping - item1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+
+-[eCommerce] -2020-09-19 22:11:25.738 -DEBUG 9675 --- [task-1] .loader.collection.plan.CollectionLoader : Static select for collection com.udacity.project4.domain.model.Cart.items: select items0_.cart_id as cart_id1_1_0_, items0_.items_id as items_id2_1_0_, item1_.id as id1_2_1_, item1_.description as descript2_2_1_, item1_.name as name3_2_1_, item1_.price as price4_2_1_ from cart_items items0_ inner join item item1_ on items0_.items_id=item1_.id where items0_.cart_id=?
+-[eCommerce] -2020-09-19 22:11:25.738 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.CollectionQuerySpaceImpl@3275a1dd]
+-[eCommerce] -2020-09-19 22:11:25.738 -DEBUG 9675 --- [task-1] an.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:1> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a76cec]
+-[eCommerce] -2020-09-19 22:11:25.740 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : description
+-[eCommerce] -2020-09-19 22:11:25.740 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+-[eCommerce] -2020-09-19 22:11:25.740 -DEBUG 9675 --- [task-1] rsister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+-[eCommerce] -2020-09-19 22:11:25.741 -DEBUG 9675 --- [task-1] lanBuildingAssociationVisitationStrategy : Building LoadPlan...
+-[eCommerce] -2020-09-19 22:11:25.741 -DEBUG 9675 --- [task-1] .internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+-[eCommerce] -2020-09-19 22:11:25.741 -DEBUG 9675 --- [task-1] oader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(collection=com.udacity.project4.domain.model.UserOrder.items)
+    - Returns
+       - CollectionReturnImpl(collection=com.udacity.project4.domain.model.UserOrder.items, querySpaceUid=<gen:0>, path=[com.udacity.project4.domain.model.UserOrder.items])
+          - (collection element) CollectionFetchableElementEntityGraph(entity=com.udacity.project4.domain.model.Item, querySpaceUid=<gen:1>, path=[com.udacity.project4.domain.model.UserOrder.items].<elements>)
+    - QuerySpaces
+       - CollectionQuerySpaceImpl(uid=<gen:0>, collection=com.udacity.project4.domain.model.UserOrder.items)
+          - SQL table alias mapping - items0_
+          - alias suffix - 0_
+          - suffixed key columns - {user_ord1_5_0_}
+          - entity-element alias suffix - 1_
+          - 1_entity-element suffixed key columns - id1_2_1_
+          - JOIN (JoinDefinedByMetadata(elements)) : <gen:0> -> <gen:1>
+             - EntityQuerySpaceImpl(uid=<gen:1>, entity=com.udacity.project4.domain.model.Item)
+                - SQL table alias mapping - item1_
+                - alias suffix - 1_
+                - suffixed key columns - {id1_2_1_}
+
+-[eCommerce] -2020-09-19 22:11:25.741 -DEBUG 9675 --- [task-1] .loader.collection.plan.CollectionLoader : Static select for collection com.udacity.project4.domain.model.UserOrder.items: select items0_.user_order_id as user_ord1_5_0_, items0_.items_id as items_id2_5_0_, item1_.id as id1_2_1_, item1_.description as descript2_2_1_, item1_.name as name3_2_1_, item1_.price as price4_2_1_ from user_order_items items0_ inner join item item1_ on items0_.items_id=item1_.id where items0_.user_order_id=?
+-[eCommerce] -2020-09-19 22:11:25.799 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : create table cart (id bigint generated by default as identity, total decimal(19,2), primary key (id))
+-[eCommerce] -2020-09-19 22:11:25.807 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : create table cart_items (cart_id bigint not null, items_id bigint not null)
+-[eCommerce] -2020-09-19 22:11:25.807 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : create table item (id bigint generated by default as identity, description varchar(255) not null, name varchar(255) not null, price decimal(19,2) not null, primary key (id))
+-[eCommerce] -2020-09-19 22:11:25.808 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : create table user (id bigint generated by default as identity, password varchar(255) not null, username varchar(255) not null, cart_id bigint, primary key (id))
+-[eCommerce] -2020-09-19 22:11:25.809 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : create table user_order (id bigint generated by default as identity, total decimal(19,2), user_id bigint not null, primary key (id))
+-[eCommerce] -2020-09-19 22:11:25.809 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : create table user_order_items (user_order_id bigint not null, items_id bigint not null)
+-[eCommerce] -2020-09-19 22:11:25.810 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : alter table user drop constraint if exists UK_sb8bbouer5wak8vyiiy4pf2bx
+-[eCommerce] -2020-09-19 22:11:25.811 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : alter table user add constraint UK_sb8bbouer5wak8vyiiy4pf2bx unique (username)
+-[eCommerce] -2020-09-19 22:11:25.812 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : alter table cart_items add constraint FKbgmrxyvqs3kxt1im75fde3psy foreign key (items_id) references item
+-[eCommerce] -2020-09-19 22:11:25.815 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : alter table cart_items add constraint FK99e0am9jpriwxcm6is7xfedy3 foreign key (cart_id) references cart
+-[eCommerce] -2020-09-19 22:11:25.816 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : alter table user add constraint FKtqa69bib34k2c0jhe7afqsao6 foreign key (cart_id) references cart
+-[eCommerce] -2020-09-19 22:11:25.817 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : alter table user_order add constraint FKj86u1x7csa8yd68ql2y1ibrou foreign key (user_id) references user
+-[eCommerce] -2020-09-19 22:11:25.818 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : alter table user_order_items add constraint FKghpu6f1jrpho0deyeltq47u2u foreign key (items_id) references item
+-[eCommerce] -2020-09-19 22:11:25.819 -DEBUG 9675 --- [task-1] org.hibernate.SQL                        : alter table user_order_items add constraint FKt6k533isn84ef898d6sln1xna foreign key (user_order_id) references user_order
+-[eCommerce] -2020-09-19 22:11:25.820 - INFO 9675 --- [task-1] a.platform.internal.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+-[eCommerce] -2020-09-19 22:11:25.821 -DEBUG 9675 --- [task-1] hibernate.query.spi.NamedQueryRepository : Checking 0 named HQL queries
+-[eCommerce] -2020-09-19 22:11:25.821 -DEBUG 9675 --- [task-1] hibernate.query.spi.NamedQueryRepository : Checking 0 named SQL queries
+-[eCommerce] -2020-09-19 22:11:25.825 -DEBUG 9675 --- [task-1] ibernate.internal.SessionFactoryRegistry : Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@212ba53c
+-[eCommerce] -2020-09-19 22:11:25.825 -DEBUG 9675 --- [task-1] ibernate.internal.SessionFactoryRegistry : Registering SessionFactory: 4259d867-0f2e-44b5-8d3a-41edfff5fb2b (<unnamed>)
+-[eCommerce] -2020-09-19 22:11:25.825 -DEBUG 9675 --- [task-1] ibernate.internal.SessionFactoryRegistry : Not binding SessionFactory to JNDI, no JNDI name configured
+-[eCommerce] -2020-09-19 22:11:25.825 - INFO 9675 --- [task-1] a.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+-[eCommerce] -2020-09-19 22:11:25.827 -DEBUG 9675 --- [restartedMain] ernate.stat.internal.StatisticsInitiator : Statistics initialized [enabled=false]
+-[eCommerce] -2020-09-19 22:11:25.885 - INFO 9675 --- [restartedMain] s.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+-[eCommerce] -2020-09-19 22:11:25.893 - INFO 9675 --- [restartedMain] tuate.endpoint.web.EndpointLinksResolver : Exposing 2 endpoint(s) beneath base path '/actuator'
+-[eCommerce] -2020-09-19 22:11:25.932 - INFO 9675 --- [restartedMain] boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port(s): 8080 (http) with context path ''
+-[eCommerce] -2020-09-19 22:11:25.933 - INFO 9675 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+-[eCommerce] -2020-09-19 22:11:26.110 -DEBUG 9675 --- [restartedMain] ine.transaction.internal.TransactionImpl : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+-[eCommerce] -2020-09-19 22:11:26.161 -DEBUG 9675 --- [restartedMain] ine.transaction.internal.TransactionImpl : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+-[eCommerce] -2020-09-19 22:11:26.178 -DEBUG 9675 --- [restartedMain] ine.transaction.internal.TransactionImpl : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+-[eCommerce] -2020-09-19 22:11:26.191 -DEBUG 9675 --- [restartedMain] ine.transaction.internal.TransactionImpl : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+-[eCommerce] -2020-09-19 22:11:26.193 - INFO 9675 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+-[eCommerce] -2020-09-19 22:11:26.206 - INFO 9675 --- [restartedMain] com.udacity.project4.Project4Application : Started Project4Application in 3.553 seconds (JVM running for 4.131)
+-[eCommerce] -2020-09-19 22:12:49.911 - INFO 9675 --- [http-nio-8080-exec-1] e.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+-[eCommerce] -2020-09-19 22:12:49.914 - INFO 9675 --- [http-nio-8080-exec-1] gframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+-[eCommerce] -2020-09-19 22:12:49.932 - INFO 9675 --- [http-nio-8080-exec-1] gframework.web.servlet.DispatcherServlet : Completed initialization in 17 ms
+-[eCommerce] -2020-09-19 22:12:52.490 -DEBUG 9675 --- [http-nio-8080-exec-3] uery.criteria.internal.CriteriaQueryImpl : Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.username=:param0
+-[eCommerce] -2020-09-19 22:12:52.505 -DEBUG 9675 --- [http-nio-8080-exec-3] internal.QueryTranslatorFactoryInitiator : QueryTranslatorFactory: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@37770747
+-[eCommerce] -2020-09-19 22:12:52.524 -DEBUG 9675 --- [http-nio-8080-exec-3] ate.hql.internal.ast.QueryTranslatorImpl : parse() - HQL: select generatedAlias0 from com.udacity.project4.domain.model.User as generatedAlias0 where generatedAlias0.username=:param0
+-[eCommerce] -2020-09-19 22:12:52.529 -DEBUG 9675 --- [http-nio-8080-exec-3] .hibernate.hql.internal.ast.ErrorTracker : throwQueryException() : no errors
+-[eCommerce] -2020-09-19 22:12:52.536 -DEBUG 9675 --- [http-nio-8080-exec-3] ate.hql.internal.ast.QueryTranslatorImpl : --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[DOT] Node: '.'
+    |  |     |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  +-[DOT] Node: '.'
+    |  |     |  |  |  |  |  +-[IDENT] Node: 'com'
+    |  |     |  |  |  |  |  \-[IDENT] Node: 'udacity'
+    |  |     |  |  |  |  \-[IDENT] Node: 'project4'
+    |  |     |  |  |  \-[IDENT] Node: 'domain'
+    |  |     |  |  \-[IDENT] Node: 'model'
+    |  |     |  \-[IDENT] Node: 'User'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'username'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+-[eCommerce] -2020-09-19 22:12:52.548 -DEBUG 9675 --- [http-nio-8080-exec-3] nate.hql.internal.antlr.HqlSqlBaseWalker : select << begin [level=1, statement=select]
+-[eCommerce] -2020-09-19 22:12:52.559 -DEBUG 9675 --- [http-nio-8080-exec-3] ernate.hql.internal.ast.tree.FromElement : FromClause{level=1} : com.udacity.project4.domain.model.User (generatedAlias0) -> user0_
+-[eCommerce] -2020-09-19 22:12:52.560 -DEBUG 9675 --- [http-nio-8080-exec-3] .hql.internal.ast.tree.FromReferenceNode : Resolved : generatedAlias0 -> user0_.id
+-[eCommerce] -2020-09-19 22:12:52.562 -DEBUG 9675 --- [http-nio-8080-exec-3] .hql.internal.ast.tree.FromReferenceNode : Resolved : generatedAlias0 -> user0_.id
+-[eCommerce] -2020-09-19 22:12:52.563 -DEBUG 9675 --- [http-nio-8080-exec-3] .hibernate.hql.internal.ast.tree.DotNode : getDataType() : username -> org.hibernate.type.StringType@407f6898
+-[eCommerce] -2020-09-19 22:12:52.564 -DEBUG 9675 --- [http-nio-8080-exec-3] .hql.internal.ast.tree.FromReferenceNode : Resolved : generatedAlias0.username -> user0_.username
+-[eCommerce] -2020-09-19 22:12:52.566 -DEBUG 9675 --- [http-nio-8080-exec-3] nate.hql.internal.antlr.HqlSqlBaseWalker : select : finishing up [level=1, statement=select]
+-[eCommerce] -2020-09-19 22:12:52.566 -DEBUG 9675 --- [http-nio-8080-exec-3] .hibernate.hql.internal.ast.HqlSqlWalker : processQuery() :  ( SELECT ( {select clause} user0_.id ) ( FromClause{level=1} user user0_ ) ( where ( = ( user0_.username user0_.id username ) ? ) ) )
+-[eCommerce] -2020-09-19 22:12:52.571 -DEBUG 9675 --- [http-nio-8080-exec-3] nate.hql.internal.ast.util.JoinProcessor : Tables referenced from query nodes:
+ \-QueryNode
+    +-SelectClause
+    | referencedTables(entity User): [user]
+    |  +-IdentNode
+    |  | persister: SingleTableEntityPersister(com.udacity.project4.domain.model.User)
+    |  | originalText: generatedAlias0
+    |  \-SqlFragment
+    +-FromClause
+    |  \-FromElement
+    \-SqlNode
+       \-BinaryLogicOperatorNode
+          +-DotNode
+          | persister: SingleTableEntityPersister(com.udacity.project4.domain.model.User)
+          | path: generatedAlias0.username
+          |  +-IdentNode
+          |  | persister: SingleTableEntityPersister(com.udacity.project4.domain.model.User)
+          |  | originalText: generatedAlias0
+          |  \-IdentNode
+          |    persister: null
+          |    originalText: username
+          \-ParameterNode
+
+-[eCommerce] -2020-09-19 22:12:52.574 -DEBUG 9675 --- [http-nio-8080-exec-3] nate.hql.internal.ast.util.JoinProcessor : Using FROM fragment [user user0_]
+-[eCommerce] -2020-09-19 22:12:52.574 -DEBUG 9675 --- [http-nio-8080-exec-3] nate.hql.internal.antlr.HqlSqlBaseWalker : select >> end [level=1, statement=select]
+-[eCommerce] -2020-09-19 22:12:52.575 -DEBUG 9675 --- [http-nio-8080-exec-3] ate.hql.internal.ast.QueryTranslatorImpl : --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (user)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'user0_.id as id1_3_' {alias=generatedAlias0, className=com.udacity.project4.domain.model.User, tableAlias=user0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'user0_.cart_id as cart_id4_3_, user0_.password as password2_3_, user0_.username as username3_3_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[user0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'user user0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=user,tableAlias=user0_,origin=null,columns={,className=com.udacity.project4.domain.model.User}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'user0_.username' {propertyName=username,dereferenceType=PRIMITIVE,getPropertyPath=username,path=generatedAlias0.username,tableAlias=user0_,className=com.udacity.project4.domain.model.User,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'user0_.id' {alias=generatedAlias0, className=com.udacity.project4.domain.model.User, tableAlias=user0_}
+          |  \-[IDENT] IdentNode: 'username' {originalText=username}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@407f6898}
+
+-[eCommerce] -2020-09-19 22:12:52.575 -DEBUG 9675 --- [http-nio-8080-exec-3] .hibernate.hql.internal.ast.ErrorTracker : throwQueryException() : no errors
+-[eCommerce] -2020-09-19 22:12:52.579 -DEBUG 9675 --- [http-nio-8080-exec-3] ate.hql.internal.ast.QueryTranslatorImpl : HQL: select generatedAlias0 from com.udacity.project4.domain.model.User as generatedAlias0 where generatedAlias0.username=:param0
+-[eCommerce] -2020-09-19 22:12:52.579 -DEBUG 9675 --- [http-nio-8080-exec-3] ate.hql.internal.ast.QueryTranslatorImpl : SQL: select user0_.id as id1_3_, user0_.cart_id as cart_id4_3_, user0_.password as password2_3_, user0_.username as username3_3_ from user user0_ where user0_.username=?
+-[eCommerce] -2020-09-19 22:12:52.579 -DEBUG 9675 --- [http-nio-8080-exec-3] .hibernate.hql.internal.ast.ErrorTracker : throwQueryException() : no errors
+-[eCommerce] -2020-09-19 22:12:52.598 -DEBUG 9675 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : select user0_.id as id1_3_, user0_.cart_id as cart_id4_3_, user0_.password as password2_3_, user0_.username as username3_3_ from user user0_ where user0_.username=?
+-[eCommerce] -2020-09-19 22:12:52.706 -DEBUG 9675 --- [http-nio-8080-exec-3] ine.transaction.internal.TransactionImpl : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+-[eCommerce] -2020-09-19 22:12:52.706 -DEBUG 9675 --- [http-nio-8080-exec-3] ine.transaction.internal.TransactionImpl : begin
+-[eCommerce] -2020-09-19 22:12:52.730 -DEBUG 9675 --- [http-nio-8080-exec-3] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+-[eCommerce] -2020-09-19 22:12:52.735 -DEBUG 9675 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : insert into cart (id, total) values (null, ?)
+-[eCommerce] -2020-09-19 22:12:52.738 -DEBUG 9675 --- [http-nio-8080-exec-3] g.hibernate.id.IdentifierGeneratorHelper : Natively generated identity: 1
+-[eCommerce] -2020-09-19 22:12:52.739 -DEBUG 9675 --- [http-nio-8080-exec-3] bc.internal.ResourceRegistryStandardImpl : HHH000387: ResultSet's statement was not registered
+-[eCommerce] -2020-09-19 22:12:52.741 -DEBUG 9675 --- [http-nio-8080-exec-3] ine.transaction.internal.TransactionImpl : committing
+-[eCommerce] -2020-09-19 22:12:52.741 -DEBUG 9675 --- [http-nio-8080-exec-3] t.internal.AbstractFlushingEventListener : Processing flush-time cascades
+-[eCommerce] -2020-09-19 22:12:52.742 -DEBUG 9675 --- [http-nio-8080-exec-3] t.internal.AbstractFlushingEventListener : Dirty checking collections
+-[eCommerce] -2020-09-19 22:12:52.746 -DEBUG 9675 --- [http-nio-8080-exec-3] t.internal.AbstractFlushingEventListener : Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+-[eCommerce] -2020-09-19 22:12:52.746 -DEBUG 9675 --- [http-nio-8080-exec-3] t.internal.AbstractFlushingEventListener : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+-[eCommerce] -2020-09-19 22:12:52.747 -DEBUG 9675 --- [http-nio-8080-exec-3] rg.hibernate.internal.util.EntityPrinter : Listing entities:
+-[eCommerce] -2020-09-19 22:12:52.748 -DEBUG 9675 --- [http-nio-8080-exec-3] rg.hibernate.internal.util.EntityPrinter : com.udacity.project4.domain.model.Cart{total=null, id=1, items=null, user=null}
+-[eCommerce] -2020-09-19 22:12:52.751 -DEBUG 9675 --- [http-nio-8080-exec-3] ine.transaction.internal.TransactionImpl : begin
+-[eCommerce] -2020-09-19 22:12:52.754 -DEBUG 9675 --- [http-nio-8080-exec-3] org.hibernate.engine.spi.ActionQueue     : Executing identity-insert immediately
+-[eCommerce] -2020-09-19 22:12:52.754 -DEBUG 9675 --- [http-nio-8080-exec-3] org.hibernate.SQL                        : insert into user (id, cart_id, password, username) values (null, ?, ?, ?)
+-[eCommerce] -2020-09-19 22:12:52.757 -DEBUG 9675 --- [http-nio-8080-exec-3] g.hibernate.id.IdentifierGeneratorHelper : Natively generated identity: 1
+-[eCommerce] -2020-09-19 22:12:52.757 -DEBUG 9675 --- [http-nio-8080-exec-3] bc.internal.ResourceRegistryStandardImpl : HHH000387: ResultSet's statement was not registered
+-[eCommerce] -2020-09-19 22:12:52.757 -DEBUG 9675 --- [http-nio-8080-exec-3] ine.transaction.internal.TransactionImpl : committing
+-[eCommerce] -2020-09-19 22:12:52.757 -DEBUG 9675 --- [http-nio-8080-exec-3] t.internal.AbstractFlushingEventListener : Processing flush-time cascades
+-[eCommerce] -2020-09-19 22:12:52.757 -DEBUG 9675 --- [http-nio-8080-exec-3] t.internal.AbstractFlushingEventListener : Dirty checking collections
+-[eCommerce] -2020-09-19 22:12:52.758 -DEBUG 9675 --- [http-nio-8080-exec-3] t.internal.AbstractFlushingEventListener : Flushed: 0 insertions, 0 updates, 0 deletions to 2 objects
+-[eCommerce] -2020-09-19 22:12:52.758 -DEBUG 9675 --- [http-nio-8080-exec-3] t.internal.AbstractFlushingEventListener : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+-[eCommerce] -2020-09-19 22:12:52.758 -DEBUG 9675 --- [http-nio-8080-exec-3] rg.hibernate.internal.util.EntityPrinter : Listing entities:
+-[eCommerce] -2020-09-19 22:12:52.760 -DEBUG 9675 --- [http-nio-8080-exec-3] rg.hibernate.internal.util.EntityPrinter : com.udacity.project4.domain.model.User{password=$2a$10$D5kCnkjWS2qhmNx9fBsmm.V7QRyZv8ItCL8uxJgNbO0WWduYbFJwy, id=1, cart=com.udacity.project4.domain.model.Cart#1, username=admin}
+-[eCommerce] -2020-09-19 22:12:52.760 -DEBUG 9675 --- [http-nio-8080-exec-3] rg.hibernate.internal.util.EntityPrinter : com.udacity.project4.domain.model.Cart{total=null, id=1, items=null, user=null}
+-[eCommerce] -2020-09-19 22:12:52.761 - INFO 9675 --- [http-nio-8080-exec-3] udacity.project4.api.rest.UserController : [USER] [CREATE] User created: admin
+-[eCommerce] -2020-09-19 22:12:58.181 -DEBUG 9675 --- [http-nio-8080-exec-4] ructure.security.JWTAuthenticationFilter : Request is to process authentication
+-[eCommerce] -2020-09-19 22:12:58.285 -DEBUG 9675 --- [http-nio-8080-exec-4] uery.criteria.internal.CriteriaQueryImpl : Rendered criteria query -> select generatedAlias0 from User as generatedAlias0 where generatedAlias0.username=:param0
+-[eCommerce] -2020-09-19 22:12:58.302 -DEBUG 9675 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select user0_.id as id1_3_, user0_.cart_id as cart_id4_3_, user0_.password as password2_3_, user0_.username as username3_3_ from user user0_ where user0_.username=?
+-[eCommerce] -2020-09-19 22:12:58.302 -DEBUG 9675 --- [http-nio-8080-exec-4] org.hibernate.loader.Loader              : Result set row: 0
+-[eCommerce] -2020-09-19 22:12:58.304 -DEBUG 9675 --- [http-nio-8080-exec-4] org.hibernate.loader.Loader              : Result row: EntityKey[com.udacity.project4.domain.model.User#1]
+-[eCommerce] -2020-09-19 22:12:58.307 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Resolving attributes for [com.udacity.project4.domain.model.User#1]
+-[eCommerce] -2020-09-19 22:12:58.307 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `cart` : value = 1
+-[eCommerce] -2020-09-19 22:12:58.307 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`cart`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:12:58.310 -DEBUG 9675 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select cart0_.id as id1_0_0_, cart0_.total as total2_0_0_, user1_.id as id1_3_1_, user1_.cart_id as cart_id4_3_1_, user1_.password as password2_3_1_, user1_.username as username3_3_1_ from cart cart0_ left outer join user user1_ on cart0_.id=user1_.cart_id where cart0_.id=?
+-[eCommerce] -2020-09-19 22:12:58.314 -DEBUG 9675 --- [http-nio-8080-exec-4] .internal.EntityReferenceInitializerImpl : On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+-[eCommerce] -2020-09-19 22:12:58.315 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Resolving attributes for [com.udacity.project4.domain.model.Cart#1]
+-[eCommerce] -2020-09-19 22:12:58.315 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `items` : value = NOT NULL COLLECTION
+-[eCommerce] -2020-09-19 22:12:58.315 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`items`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:12:58.322 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `total` : value = null
+-[eCommerce] -2020-09-19 22:12:58.322 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`total`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:12:58.322 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `user` : value = 1
+-[eCommerce] -2020-09-19 22:12:58.322 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`user`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:12:58.323 -DEBUG 9675 --- [http-nio-8080-exec-4] org.hibernate.loader.Loader              : Loading entity: [com.udacity.project4.domain.model.User#1]
+-[eCommerce] -2020-09-19 22:12:58.323 -DEBUG 9675 --- [http-nio-8080-exec-4] org.hibernate.SQL                        : select user0_.id as id1_3_1_, user0_.cart_id as cart_id4_3_1_, user0_.password as password2_3_1_, user0_.username as username3_3_1_, cart1_.id as id1_0_0_, cart1_.total as total2_0_0_ from user user0_ left outer join cart cart1_ on user0_.cart_id=cart1_.id where user0_.cart_id=?
+-[eCommerce] -2020-09-19 22:12:58.324 -DEBUG 9675 --- [http-nio-8080-exec-4] org.hibernate.loader.Loader              : Result set row: 0
+-[eCommerce] -2020-09-19 22:12:58.324 -DEBUG 9675 --- [http-nio-8080-exec-4] org.hibernate.loader.Loader              : Result row: EntityKey[com.udacity.project4.domain.model.Cart#1], EntityKey[com.udacity.project4.domain.model.User#1]
+-[eCommerce] -2020-09-19 22:12:58.324 -DEBUG 9675 --- [http-nio-8080-exec-4] org.hibernate.loader.Loader              : Done entity load
+-[eCommerce] -2020-09-19 22:12:58.324 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Done materializing entity [com.udacity.project4.domain.model.Cart#1]
+-[eCommerce] -2020-09-19 22:12:58.325 -DEBUG 9675 --- [http-nio-8080-exec-4] y.plan.AbstractLoadPlanBasedEntityLoader : Done entity load : com.udacity.project4.domain.model.Cart#1
+-[eCommerce] -2020-09-19 22:12:58.326 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `password` : value = $2a$10$D5kCnkjWS2qhmNx9fBsmm.V7QRyZv8ItCL8uxJgNbO0WWduYbFJwy
+-[eCommerce] -2020-09-19 22:12:58.326 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`password`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:12:58.326 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `username` : value = admin
+-[eCommerce] -2020-09-19 22:12:58.326 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`username`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:12:58.326 -DEBUG 9675 --- [http-nio-8080-exec-4] g.hibernate.engine.internal.TwoPhaseLoad : Done materializing entity [com.udacity.project4.domain.model.User#1]
+-[eCommerce] -2020-09-19 22:12:58.464 - INFO 9675 --- [http-nio-8080-exec-4] ructure.security.JWTAuthenticationFilter : [LOGIN] [Success] for user : admin
+-[eCommerce] -2020-09-19 22:13:00.238 -DEBUG 9675 --- [http-nio-8080-exec-5] ine.transaction.internal.TransactionImpl : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+-[eCommerce] -2020-09-19 22:13:00.238 -DEBUG 9675 --- [http-nio-8080-exec-5] ine.transaction.internal.TransactionImpl : begin
+-[eCommerce] -2020-09-19 22:13:00.240 -DEBUG 9675 --- [http-nio-8080-exec-5] org.hibernate.SQL                        : select user0_.id as id1_3_0_, user0_.cart_id as cart_id4_3_0_, user0_.password as password2_3_0_, user0_.username as username3_3_0_, cart1_.id as id1_0_1_, cart1_.total as total2_0_1_ from user user0_ left outer join cart cart1_ on user0_.cart_id=cart1_.id where user0_.id=?
+-[eCommerce] -2020-09-19 22:13:00.241 -DEBUG 9675 --- [http-nio-8080-exec-5] .internal.EntityReferenceInitializerImpl : On call to EntityIdentifierReaderImpl#resolve, EntityKey was already known; should only happen on root returns with an optional identifier specified
+-[eCommerce] -2020-09-19 22:13:00.241 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Resolving attributes for [com.udacity.project4.domain.model.User#1]
+-[eCommerce] -2020-09-19 22:13:00.241 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `cart` : value = 1
+-[eCommerce] -2020-09-19 22:13:00.241 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`cart`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:13:00.241 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `password` : value = $2a$10$D5kCnkjWS2qhmNx9fBsmm.V7QRyZv8ItCL8uxJgNbO0WWduYbFJwy
+-[eCommerce] -2020-09-19 22:13:00.241 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`password`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:13:00.243 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `username` : value = admin
+-[eCommerce] -2020-09-19 22:13:00.243 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`username`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:13:00.243 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Done materializing entity [com.udacity.project4.domain.model.User#1]
+-[eCommerce] -2020-09-19 22:13:00.243 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Resolving attributes for [com.udacity.project4.domain.model.Cart#1]
+-[eCommerce] -2020-09-19 22:13:00.243 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `items` : value = NOT NULL COLLECTION
+-[eCommerce] -2020-09-19 22:13:00.243 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`items`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:13:00.243 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `total` : value = null
+-[eCommerce] -2020-09-19 22:13:00.243 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`total`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:13:00.243 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Processing attribute `user` : value = 1
+-[eCommerce] -2020-09-19 22:13:00.244 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Attribute (`user`)  - enhanced for lazy-loading? - false
+-[eCommerce] -2020-09-19 22:13:00.244 -DEBUG 9675 --- [http-nio-8080-exec-5] g.hibernate.engine.internal.TwoPhaseLoad : Done materializing entity [com.udacity.project4.domain.model.Cart#1]
+-[eCommerce] -2020-09-19 22:13:00.244 -DEBUG 9675 --- [http-nio-8080-exec-5] y.plan.AbstractLoadPlanBasedEntityLoader : Done entity load : com.udacity.project4.domain.model.User#1
+-[eCommerce] -2020-09-19 22:13:00.244 -DEBUG 9675 --- [http-nio-8080-exec-5] ine.transaction.internal.TransactionImpl : committing
+-[eCommerce] -2020-09-19 22:13:00.247 - INFO 9675 --- [http-nio-8080-exec-5] udacity.project4.api.rest.UserController : [USER] [GET] User found by userId: 1
+-[eCommerce] -2020-09-19 22:13:41.759 - INFO 9675 --- [SpringContextShutdownHook] a.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+-[eCommerce] -2020-09-19 22:13:41.759 -DEBUG 9675 --- [SpringContextShutdownHook] rg.hibernate.internal.SessionFactoryImpl : HHH000031: Closing
+-[eCommerce] -2020-09-19 22:13:41.760 -DEBUG 9675 --- [SpringContextShutdownHook] bernate.type.spi.TypeConfiguration$Scope : Un-scoping TypeConfiguration [org.hibernate.type.spi.TypeConfiguration$Scope@147790b0] from SessionFactory [org.hibernate.internal.SessionFactoryImpl@4973da9d]
+-[eCommerce] -2020-09-19 22:13:41.761 -DEBUG 9675 --- [SpringContextShutdownHook] ice.internal.AbstractServiceRegistryImpl : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+-[eCommerce] -2020-09-19 22:13:41.762 -DEBUG 9675 --- [SpringContextShutdownHook] ry.internal.BootstrapServiceRegistryImpl : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+-[eCommerce] -2020-09-19 22:13:41.762 - INFO 9675 --- [SpringContextShutdownHook] duling.concurrent.ThreadPoolTaskExecutor : Shutting down ExecutorService 'applicationTaskExecutor'
+-[eCommerce] -2020-09-19 22:13:42.006 -ERROR 9675 --- [HikariPool-1 connection adder] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Error thrown while acquiring connection from data source
+-
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Session.checkSuspended(Session.java:1369)
+	at org.h2.engine.Session.isOpen(Session.java:1303)
+	at org.h2.engine.Session.waitIfExclusiveModeEnabled(Session.java:1639)
+	at org.h2.command.Command.executeQuery(Command.java:186)
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:631)
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:402)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:363)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:725)
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:711)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+[eCommerce] -2020-09-19 22:13:42.104 - WARN 9675 --- [SpringContextShutdownHook] ns.factory.support.DisposableBeanAdapter : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+-[eCommerce] -2020-09-19 22:13:42.104 - INFO 9675 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+-[eCommerce] -2020-09-19 22:13:42.260 - INFO 9675 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+-
