@@ -63,36 +63,4 @@ public class User {
 		this.password = password;
 	}
 
-	@Override
-	public boolean equals(Object o) {
-		if (this == o) return true;
-
-		if (!(o instanceof User)) return false;
-
-		User user = (User) o;
-
-		return new EqualsBuilder()
-				.append(getId(), user.getId())
-				.append(getUsername(), user.getUsername())
-				.append(getCart(), user.getCart())
-				.isEquals();
-	}
-
-	@Override
-	public int hashCode() {
-		return new HashCodeBuilder(17, 37)
-				.append(getId())
-				.append(getUsername())
-				.append(getCart())
-				.toHashCode();
-	}
-
-	@Override
-	public String toString() {
-		return "User{" +
-				"id=" + id +
-				", username='" + username + '\'' +
-				", cart=" + cart +
-				'}';
-	}
 }

@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.udacity.project4.Project4Application;
 import com.udacity.project4.api.model.CreateUserRequest;
-import com.udacity.project4.domain.model.User;
+
 import com.udacity.project4.domain.repository.CartRepository;
 import com.udacity.project4.domain.repository.UserRepository;
 
@@ -25,8 +25,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 import org.springframework.test.web.servlet.MockMvc;
 
-
 import static org.hamcrest.CoreMatchers.is;
+
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
@@ -38,7 +38,7 @@ import com.udacity.project4.utils.JsonUtil;
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.MOCK,
         classes = Project4Application.class)
 @AutoConfigureMockMvc
-@EnableAutoConfiguration(exclude= SecurityAutoConfiguration.class)
+@EnableAutoConfiguration(exclude = SecurityAutoConfiguration.class)
 @AutoConfigureTestDatabase
 public class UserControllerIntegrationTest {
 
@@ -56,11 +56,13 @@ public class UserControllerIntegrationTest {
 
     private static ObjectMapper objectMapper;
 
+
     @BeforeAll
     static void initAll() {
         // Initialize Jackson mapper to convert response json to object
         objectMapper = new ObjectMapper();
         objectMapper.configure(SerializationFeature.INDENT_OUTPUT, true);
+
     }
 
 
@@ -82,6 +84,7 @@ public class UserControllerIntegrationTest {
 
     @Test
     public void createUserFailsWithDifferentPassword() throws Exception {
+
         CreateUserRequest userRequest = new CreateUserRequest();
         userRequest.setUsername("testuser");
         userRequest.setPassword("testPassw0rd!");
@@ -98,17 +101,11 @@ public class UserControllerIntegrationTest {
 
     @Test
     public void findByUserNameFailsWhenUserIsNotLoggedIn() throws Exception {
-        createTestUser("testUserX");
 
         mockMvc.perform(get("/api/user/" + "testUserX").contentType(MediaType.APPLICATION_JSON))
                 .andDo(print())
                 .andExpect(status().isUnauthorized());
     }
 
-    private void createTestUser(String username) {
-        User user = new User();
-        user.setUsername(username);
-        user.setPassword(bCryptPasswordEncoder.encode("testPassword"));
-        userRepository.saveAndFlush(user);
-    }
+
 }

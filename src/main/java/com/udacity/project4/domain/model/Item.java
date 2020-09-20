@@ -59,40 +59,4 @@ public class Item {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-
-	@Override
-	public boolean equals(Object o) {
-		if (this == o) return true;
-
-		if (!(o instanceof Item)) return false;
-
-		Item item = (Item) o;
-
-		return new EqualsBuilder()
-				.append(getId(), item.getId())
-				.append(getName(), item.getName())
-				.append(getPrice(), item.getPrice())
-				.append(getDescription(), item.getDescription())
-				.isEquals();
-	}
-
-	@Override
-	public int hashCode() {
-		return new HashCodeBuilder(17, 37)
-				.append(getId())
-				.append(getName())
-				.append(getPrice())
-				.append(getDescription())
-				.toHashCode();
-	}
-
-	@Override
-	public String toString() {
-		return "Item{" +
-				"id=" + id +
-				", name='" + name + '\'' +
-				", price=" + price +
-				", description='" + description + '\'' +
-				'}';
-	}
 }

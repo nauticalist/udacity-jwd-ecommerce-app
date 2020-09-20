@@ -45,10 +45,10 @@ management.endpoints.web.cors.allowed-headers: "*"
 management.endpoint.health.show-details: always
 
 
-app:
-  config:
-    errors:
-      controlleradvice: true
+#app:
+#  config:
+#    errors:
+#      controlleradvice: true
 ---
 spring:
   profiles: docker

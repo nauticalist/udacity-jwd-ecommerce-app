@@ -33,11 +33,11 @@ public class OrderController {
         LOG.info("[ORDER] [CREATE] Create new order for user initiated:" + username);
 
         UserOrder order = UserOrder.createFromCart(user.getCart());
-        UserOrder orderSaved = orderRepository.save(order);
+        orderRepository.save(order);
 
-        LOG.info("[ORDER] [CREATE] Create new order for user completed:" + orderSaved);
+        LOG.info("[ORDER] [CREATE] Create new order for user completed:" + order.toString());
 
-        return new ResponseEntity<>(orderSaved, HttpStatus.CREATED);
+        return new ResponseEntity<>(order, HttpStatus.CREATED);
 
     }
 

@@ -85,40 +85,4 @@ public class Cart {
 		}
 		total = total.subtract(item.getPrice());
 	}
-
-	@Override
-	public boolean equals(Object o) {
-		if (this == o) return true;
-
-		if (!(o instanceof Cart)) return false;
-
-		Cart cart = (Cart) o;
-
-		return new EqualsBuilder()
-				.append(getId(), cart.getId())
-				.append(getItems(), cart.getItems())
-				.append(getUser(), cart.getUser())
-				.append(getTotal(), cart.getTotal())
-				.isEquals();
-	}
-
-	@Override
-	public int hashCode() {
-		return new HashCodeBuilder(17, 37)
-				.append(getId())
-				.append(getItems())
-				.append(getUser())
-				.append(getTotal())
-				.toHashCode();
-	}
-
-	@Override
-	public String toString() {
-		return "Cart{" +
-				"id=" + id +
-				", items=" + items +
-				", user=" + user +
-				", total=" + total +
-				'}';
-	}
 }

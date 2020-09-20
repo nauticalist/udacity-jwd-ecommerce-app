@@ -19,7 +19,7 @@ import org.springframework.web.servlet.NoHandlerFoundException;
 import javax.validation.ConstraintViolation;
 import javax.validation.ConstraintViolationException;
 
-@ConditionalOnProperty(name = "app.config.errors.controlleradvice", havingValue = "true")
+//@ConditionalOnProperty(name = "app.config.errors.controlleradvice", havingValue = "true")
 @ControllerAdvice
 public class ExceptionControllerAdvice{
 

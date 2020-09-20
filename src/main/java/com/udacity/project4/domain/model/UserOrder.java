@@ -73,39 +73,4 @@ public class UserOrder {
 		return order;
 	}
 
-	@Override
-	public boolean equals(Object o) {
-		if (this == o) return true;
-
-		if (!(o instanceof UserOrder)) return false;
-
-		UserOrder userOrder = (UserOrder) o;
-
-		return new EqualsBuilder()
-				.append(getId(), userOrder.getId())
-				.append(getItems(), userOrder.getItems())
-				.append(getUser(), userOrder.getUser())
-				.append(getTotal(), userOrder.getTotal())
-				.isEquals();
-	}
-
-	@Override
-	public int hashCode() {
-		return new HashCodeBuilder(17, 37)
-				.append(getId())
-				.append(getItems())
-				.append(getUser())
-				.append(getTotal())
-				.toHashCode();
-	}
-
-	@Override
-	public String toString() {
-		return "UserOrder{" +
-				"id=" + id +
-				", items=" + items +
-				", user=" + user +
-				", total=" + total +
-				'}';
-	}
 }
