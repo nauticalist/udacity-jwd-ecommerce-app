@@ -17,18 +17,22 @@ spring.jpa:
     hibernate:
       dialect: "org.hibernate.dialect.H2Dialect"
 
+logging:
+  level:
+    root: INFO
+    com.udacity.project4: DEBUG
+    org.hibernate: DEBUG
+  pattern:
+    console: "[eCommerce] %d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}} ${LOG_LEVEL_PATTERN:-%5p} ${PID:- } --- [%t] %-40.40logger{39} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"
+    file: "[eCommerce] %d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}} ${LOG_LEVEL_PATTERN:-%5p} ${PID:- } --- [%t] %-40.40logger{39} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%wEx}"
+  file:
+    name: "logs/application-debug.log"
+
 spring.datasource.hikari.initializationFailTimeout: 60000
 
 spring.mvc.throw-exception-if-no-handler-found: true
 
 spring.resources.add-mappings: false
-
-logging:
-  level:
-    root: INFO
-    com.udacity: DEBUG
-    org.hibernate.SQL: DEBUG
-    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
 
 management.endpoints:
   web:
@@ -41,10 +45,10 @@ management.endpoints.web.cors.allowed-headers: "*"
 management.endpoint.health.show-details: always
 
 
-app:
-  config:
-    errors:
-      controlleradvice: true
+#app:
+#  config:
+#    errors:
+#      controlleradvice: true
 ---
 spring:
   profiles: docker
